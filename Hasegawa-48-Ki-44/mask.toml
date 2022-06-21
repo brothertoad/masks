@@ -8,3 +8,12 @@ printName = "Hasegawa-48-Ki-44"
 [points]
 
 [objects]
+part1.curves = [
+  "string1",
+  "string2"
+]
+part1.lines = [
+  "line1",
+  "line2",
+  "line3"
+]
