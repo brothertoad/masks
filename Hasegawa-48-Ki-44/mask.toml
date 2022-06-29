@@ -6,14 +6,25 @@ strokeWidth = 2
 printName = "Hasegawa-48-Ki-44"
 
 [points]
+rear1 = { x = 112, y = 512 }
+rear2 = { x = 496, y = 390 }
+rear3 = { x = 488, y = 610 }
+side1 = { x = 519, y = 389 }
+side2 = { x = 772, y = 373 }
+side3 = { x = 819, y = 598 }
+side4 = { x = 515, y = 608 }
 
 [objects]
-part1.curves = [
-  "string1",
-  "string2"
+rear.curves = [
+  "rear1 192,476 245,454 307,431 362,414 421,399 rear2",
+  "rear3 454,610 390,604 327,593 272,579 204,555 154,536 rear1",
 ]
-part1.lines = [
-  "line1",
-  "line2",
-  "line3"
+rear.lines = [
+  "rear2 rear3"
+]
+side.curves = [
+  "side1 549,387 591,383 632,380 667,377 703,374 727,373 751,372 side2"
+]
+side.lines = [
+  "side2 side3 side4 side1"
 ]
