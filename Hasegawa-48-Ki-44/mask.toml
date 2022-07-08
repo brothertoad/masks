@@ -13,7 +13,7 @@ side1 = { x = 519, y = 389 }
 side2 = { x = 772, y = 373 }
 side3 = { x = 819, y = 598 }
 side4 = { x = 515, y = 608 }
-front1 = { x = 825, y = 415 }
+front1 = { x = 823, y = 415 }
 front3 = { x = 1067, y = 422}
 front4 = { x = 953, y = 549 }
 
@@ -43,5 +43,6 @@ windscreen.lines = [
 
 front.curves = [
   "front1 895,384 981,396 front3",
-  "front3 1035,470 992,517 front4"
+  "front3 1035,470 992,517 front4",
+  "front4 885,487 front1"
 ]
