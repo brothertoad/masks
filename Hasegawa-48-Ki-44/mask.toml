@@ -13,6 +13,9 @@ side1 = { x = 519, y = 389 }
 side2 = { x = 772, y = 373 }
 side3 = { x = 819, y = 598 }
 side4 = { x = 515, y = 608 }
+front1 = { x = 825, y = 415 }
+front3 = { x = 1067, y = 422}
+front4 = { x = 953, y = 549 }
 
 [objects]
 rear.curves = [
@@ -22,12 +25,22 @@ rear.curves = [
 rear.lines = [
   "rear2 rear3"
 ]
+
 side.curves = [
   "side1 549,387 591,383 632,380 667,377 703,374 727,373 751,372 side2"
 ]
 side.lines = [
   "side2 side3 side4 side1"
 ]
+
 windscreen.beziers = [
   "1080,395 1058,351 1058,323 1080,279"
+]
+windscreen.lines = [
+  "1080,395 933,360 933,314 1080,279",
+  "924,360 834,360 834,314 924,314 924,360"
+]
+
+front.beziers = [
+  "front1 878,371 868,370 front3"
 ]
