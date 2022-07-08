@@ -27,7 +27,7 @@ rear.lines = [
 ]
 
 side.curves = [
-  "side1 549,387 591,383 632,380 667,377 703,374 727,373 751,372 side2"
+  "side1 591,383 667,377 727,373 side2"
 ]
 side.lines = [
   "side2 side3 side4 side1"
@@ -41,6 +41,7 @@ windscreen.lines = [
   "924,360 834,360 834,314 924,314 924,360"
 ]
 
-front.beziers = [
-  "front1 878,371 868,370 front3"
+front.curves = [
+  "front1 895,384 981,396 front3",
+  "front3 1035,470 992,517 front4"
 ]
