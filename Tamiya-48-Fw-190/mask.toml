@@ -2,7 +2,7 @@
 title = "Tamiya-48-Fw-190"
 printName = "Tamiya-48-Fw-190"
 width = 1200
-height = 800
+height = 1200
 
 [points]
 rear1 = { x = 112, y = 512 }
@@ -57,4 +57,9 @@ flip = ""
 [[renders]]
 object = "windscreenTop"
 translate = { x = 200, y = 200 }
+flip = ""
+
+[[renders]]
+object = "rear"
+translate = { x = 300, y = 500 }
 flip = ""
