@@ -1,9 +1,8 @@
 [global]
-title = "Hasegawa-48-Ki-44"
-image = "Hasegawa-48-Ki-44-1.jpg"
-strokeColor = "black"
-strokeWidth = 2
-printName = "Hasegawa-48-Ki-44"
+title = "Tamiya-48-Fw-190"
+printName = "Tamiya-48-Fw-190"
+width = 1200
+height = 1200
 
 [points]
 rear1 = { x = 112, y = 512 }
@@ -37,7 +36,10 @@ windscreen.beziers = [
   "1080,395 1058,351 1058,323 1080,279"
 ]
 windscreen.lines = [
-  "1080,395 933,360 933,314 1080,279",
+  "1080,395 933,360 933,314 1080,279"
+]
+
+windscreenTop.lines = [
   "924,360 834,360 834,314 924,314 924,360"
 ]
 
@@ -46,3 +48,23 @@ front.curves = [
   "front3 1035,470 992,517 front4",
   "front4 885,487 front1"
 ]
+
+[[renders]]
+object = "windscreen"
+translate = { x = 500, y = 200 }
+flip = ""
+
+[[renders]]
+object = "windscreenTop"
+translate = { x = 200, y = 200 }
+flip = ""
+
+[[renders]]
+object = "front"
+translate = { x = 700, y = 500 }
+flip = ""
+
+[[renders]]
+object = "rear"
+translate = { x = 300, y = 500 }
+flip = ""
