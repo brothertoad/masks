@@ -60,6 +60,11 @@ translate = { x = 200, y = 200 }
 flip = ""
 
 [[renders]]
+object = "front"
+translate = { x = 700, y = 500 }
+flip = ""
+
+[[renders]]
 object = "rear"
 translate = { x = 300, y = 500 }
 flip = ""
