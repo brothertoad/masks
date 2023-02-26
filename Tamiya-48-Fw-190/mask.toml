@@ -51,20 +51,31 @@ front.curves = [
 
 [[renders]]
 object = "windscreen"
-translate = { x = 500, y = 200 }
+translate = { x = 800, y = 400 }
 flip = ""
 
 [[renders]]
 object = "windscreenTop"
-translate = { x = 200, y = 200 }
+translate = { x = 600, y = 400 }
+flip = ""
+# scale = 1.5
+
+[[renders]]
+object = "front"
+translate = { x = 700, y = 600 }
 flip = ""
 
 [[renders]]
 object = "front"
-translate = { x = 700, y = 500 }
+translate = { x = 700, y = 200 }
+flip = "vflip"
+
+[[renders]]
+object = "rear"
+translate = { x = 300, y = 600 }
 flip = ""
 
 [[renders]]
 object = "rear"
-translate = { x = 300, y = 500 }
-flip = ""
+translate = { x = 300, y = 200 }
+flip = "vflip"
