@@ -2,7 +2,7 @@
 title = "Tamiya-48-Fw-190"
 printName = "Tamiya-48-Fw-190"
 width = 120
-height = 120
+height = 90
 
 [points]
 rear1 = { x = 112, y = 512 }
