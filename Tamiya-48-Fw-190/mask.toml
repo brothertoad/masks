@@ -54,34 +54,53 @@ object = "windscreen"
 comment = "Windscreen"
 translate = { x = 800, y = 400 }
 flip = ""
+hide = true
+
+[[renders]]
+object = "windscreen"
+comment = "Windscreen"
+translate = { x = 200, y = 400 }
+flip = "hflip"
 
 [[renders]]
 object = "windscreenTop"
 comment = "Top of windscreen"
-translate = { x = 600, y = 400 }
+translate = { x = 400, y = 400 }
 flip = ""
 # scale = 1.5
 
 [[renders]]
 object = "front"
-comment = "Side window, front"
-translate = { x = 700, y = 600 }
+comment = "Windscreen side"
+translate = { x = 1000, y = 550 }
 flip = ""
 
 [[renders]]
 object = "front"
+comment = "Windscreen side, flipped"
+translate = { x = 1000, y = 250 }
+flip = "vflip"
+
+[[renders]]
+object = "side"
+comment = "Side window, front"
+translate = { x = 680, y = 500 }
+flip = ""
+
+[[renders]]
+object = "side"
 comment = "Side window, front, flipped"
-translate = { x = 700, y = 200 }
+translate = { x = 680, y = 300 }
 flip = "vflip"
 
 [[renders]]
 object = "rear"
-comment = "Side window, read"
+comment = "Side window, rear"
 translate = { x = 300, y = 600 }
 flip = ""
 
 [[renders]]
 object = "rear"
-comment = "Side window, read, flipped"
+comment = "Side window, rear, flipped"
 translate = { x = 300, y = 200 }
 flip = "vflip"
