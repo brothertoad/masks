@@ -1,0 +1,125 @@
+[global]
+title = "Tamiya-48-Bf-109E-3"
+printName = "Tamiya-48-Bf-109E-3"
+strokeColor = "red"
+width = 120
+height = 90
+
+[points]
+side1 = { x = 0, y = 0 }
+side2 = { x = 300, y = 0 }
+side3 = { x = 300, y = 140 }
+side4 = { x = 0, y = 140 }
+
+top1 = { x = 0, y = 0 }
+top2 = { x = 300, y = 0 }
+top3 = { x = 300, y = 228 }
+top4 = { x = 0, y = 228 }
+
+triangle1 = { x = 0, y = 0 }
+triangle2 = { x = 0, y = 724 }
+triangle3 = { x = 1042, y = 724 }
+
+
+rear1 = { x = 112, y = 512 }
+rear2 = { x = 496, y = 390 }
+rear3 = { x = 488, y = 610 }
+
+front1 = { x = 823, y = 415 }
+front3 = { x = 1067, y = 422}
+front4 = { x = 953, y = 549 }
+
+[objects]
+rear.curves = [
+  "rear1 192,476 245,454 307,431 362,414 421,399 rear2",
+  "rear3 454,610 390,604 327,593 272,579 204,555 154,536 rear1",
+]
+rear.lines = [
+  "rear2 rear3"
+]
+
+side.lines = [
+  "side1 side2 side3 side4 side1"
+]
+
+top.lines = [
+  "top1 top2 top3 top4 top1"
+]
+
+triangle.lines = [
+  "triangle1 triangle2 triangle3 triangle1"
+]
+
+windscreen.beziers = [
+  "1080,395 1058,351 1058,323 1080,279"
+]
+windscreen.lines = [
+  "1080,395 933,360 933,314 1080,279"
+]
+
+windscreenTop.lines = [
+  "924,360 834,360 834,314 924,314 924,360"
+]
+
+front.curves = [
+  "front1 895,384 981,396 front3",
+  "front3 1035,470 992,517 front4",
+  "front4 885,487 front1"
+]
+
+[[xrenders]]
+object = "windscreen"
+comment = "Windscreen"
+translate = { x = 800, y = 400 }
+flip = ""
+hide = true
+
+[[xrenders]]
+object = "windscreen"
+comment = "Windscreen"
+translate = { x = 200, y = 400 }
+flip = "hflip"
+
+[[xrenders]]
+object = "windscreenTop"
+comment = "Top of windscreen"
+translate = { x = 400, y = 400 }
+flip = ""
+# scale = 1.5
+
+[[xrenders]]
+object = "front"
+comment = "Windscreen side"
+translate = { x = 1000, y = 550 }
+flip = ""
+
+[[xrenders]]
+object = "front"
+comment = "Windscreen side, flipped"
+translate = { x = 1000, y = 250 }
+flip = "vflip"
+
+[[renders]]
+object = "side"
+comment = "Side of main canopy"
+translate = { x = 680, y = 700 }
+flip = ""
+
+[[renders]]
+object = "side"
+comment = "Side of main canopy, flipped"
+translate = { x = 680, y = 200 }
+flip = "vflip"
+
+[[renders]]
+object = "top"
+comment = "Top of main canopy"
+translate = { x = 680, y = 410 }
+flip = ""
+
+[[renders]]
+object = "triangle"
+comment = "Triangle on windscreen"
+translate = { x = 200, y = 500 }
+flip = ""
+scale = 0.2
