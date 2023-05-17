@@ -6,20 +6,40 @@ width = 120
 height = 90
 
 [points]
+# the side of the main canopy, port
 side1 = { x = 0, y = 0 }
-side2 = { x = 300, y = 0 }
-side3 = { x = 300, y = 140 }
-side4 = { x = 0, y = 140 }
+side2 = { x = 156, y = 0 }
+side3 = { x = 156, y = 68 }
+side4 = { x = 0, y = 68 }
 
+# the top of the canopy
 top1 = { x = 0, y = 0 }
-top2 = { x = 300, y = 0 }
-top3 = { x = 300, y = 228 }
-top4 = { x = 0, y = 228 }
+top2 = { x = 156, y = 0 }
+top3 = { x = 156, y = 122 }
+top4 = { x = 0, y = 122 }
 
+# the triangle on the side of the windscreen, port
 triangle1 = { x = 0, y = 0 }
-triangle2 = { x = 0, y = 724 }
-triangle3 = { x = 1042, y = 724 }
+triangle2 = { x = 0, y = 150 }
+triangle3 = { x = 180, y = 150 }
 
+# the trapezoid on the side of the windscreen, port
+trap1 = { x = 30, y = 0 }
+trap2 = { x = 70, y = 20 }
+trap3 = { x = 70, y = 90 }
+trap4 = { x = 0, y = 34 }
+
+# top of windscreen
+wtop1 = { x = 0, y = 24 }
+wtop2 = { x = 42, y = 0 }
+wtop3 = { x = 42, y = 122 }
+wtop4 = { x = 0, y = 98 }
+
+# windscreen itself
+windscreen1 = { x =  0, y =  0 }
+windscreen2 = { x = 42, y =  4 }
+windscreen3 = { x = 42, y = 62 }
+windscreen4 = { x =  0, y = 66 }
 
 rear1 = { x = 112, y = 512 }
 rear2 = { x = 496, y = 390 }
@@ -50,11 +70,19 @@ triangle.lines = [
   "triangle1 triangle2 triangle3 triangle1"
 ]
 
+trap.lines = [
+  "trap1 trap2 trap3 trap4 trap1"
+]
+
+wtop.lines = [
+  "wtop1 wtop2 wtop3 wtop4 wtop1"
+]
+
 windscreen.beziers = [
-  "1080,395 1058,351 1058,323 1080,279"
+  "windscreen1 6,22 6,44 windscreen4"
 ]
 windscreen.lines = [
-  "1080,395 933,360 933,314 1080,279"
+  "windscreen1 windscreen2 windscreen3 windscreen4"
 ]
 
 windscreenTop.lines = [
@@ -74,11 +102,12 @@ translate = { x = 800, y = 400 }
 flip = ""
 hide = true
 
-[[xrenders]]
+[[renders]]
 object = "windscreen"
 comment = "Windscreen"
-translate = { x = 200, y = 400 }
-flip = "hflip"
+translate = { x = 560, y = 460 }
+flip = ""
+scale = 2.25
 
 [[xrenders]]
 object = "windscreenTop"
@@ -89,12 +118,6 @@ flip = ""
 
 [[xrenders]]
 object = "front"
-comment = "Windscreen side"
-translate = { x = 1000, y = 550 }
-flip = ""
-
-[[xrenders]]
-object = "front"
 comment = "Windscreen side, flipped"
 translate = { x = 1000, y = 250 }
 flip = "vflip"
@@ -102,24 +125,55 @@ flip = "vflip"
 [[renders]]
 object = "side"
 comment = "Side of main canopy"
-translate = { x = 680, y = 700 }
+translate = { x = 950, y = 720 }
 flip = ""
+scale = 2.25
 
 [[renders]]
 object = "side"
 comment = "Side of main canopy, flipped"
-translate = { x = 680, y = 200 }
+translate = { x = 950, y = 200 }
 flip = "vflip"
+scale = 2.25
 
 [[renders]]
 object = "top"
 comment = "Top of main canopy"
-translate = { x = 680, y = 410 }
+translate = { x = 950, y = 430 }
 flip = ""
+scale = 2.25
+
+[[renders]]
+object = "wtop"
+comment = "Top of windscreen"
+translate = { x = 700, y = 440 }
+flip = ""
+scale = 2.25
+
+[[renders]]
+object = "trap"
+comment = "Trapezoid on side of windscreen"
+translate = { x = 660, y = 625 }
+flip = ""
+scale = 2.25
+
+[[renders]]
+object = "trap"
+comment = "Trapezoid on side of windscreen, flipped"
+translate = { x = 660, y = 280 }
+flip = "vflip"
+scale = 2.25
 
 [[renders]]
 object = "triangle"
-comment = "Triangle on windscreen"
-translate = { x = 200, y = 500 }
+comment = "Triangle on side of windscreen"
+translate = { x = 625, y = 750 }
 flip = ""
-scale = 0.2
+scale = 0.8
+
+[[renders]]
+object = "triangle"
+comment = "Triangle on side of windscreen, flipped"
+translate = { x = 625, y = 160 }
+flip = "vflip"
+scale = 0.8
