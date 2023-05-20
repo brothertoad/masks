@@ -1,9 +1,11 @@
 [global]
 title = "Tamiya-48-Bf-109E-3"
 printName = "Tamiya-48-Bf-109E-3"
-strokeColor = "red"
-width = 120
+strokeColor = "black"
+width = 180
 height = 90
+scale = 0.4
+strokeWidth = 1
 
 [points]
 # the side of the main canopy, port
@@ -41,21 +43,33 @@ windscreen2 = { x = 42, y =  4 }
 windscreen3 = { x = 42, y = 62 }
 windscreen4 = { x =  0, y = 66 }
 
-rear1 = { x = 112, y = 512 }
-rear2 = { x = 496, y = 390 }
-rear3 = { x = 488, y = 610 }
+# rear side (triangle)
+rside1 = { x =   0,  y =    0 }
+rside2 = { x =   0,  y = 1260 }
+rside3 = { x = 1000, y =    0 }
 
-front1 = { x = 823, y = 415 }
-front3 = { x = 1067, y = 422}
-front4 = { x = 953, y = 549 }
+# rear top
+rtop1  = { x = 882, y = 57 }
+rtop2  = { x = 876, y = 159 }
+rtop3  = { x = 876, y = 204 }
+
+rtop4a  = { x = 80, y = 110 }
+rtop4b  = { x = 80, y = 170 }
+
+rtop5  = { x = 72, y = 90 }
+rtop6  = { x = 8, y = 0 }
+rtop7  = { x = 0, y = 110 }
+rtop8  = { x = 0, y = 170 }
+rtop9  = { x = 8, y = 280 }
+rtop10 = { x = 72, y = 190 }
 
 [objects]
-rear.curves = [
+xrear.curves = [
   "rear1 192,476 245,454 307,431 362,414 421,399 rear2",
   "rear3 454,610 390,604 327,593 272,579 204,555 154,536 rear1",
 ]
 rear.lines = [
-  "rear2 rear3"
+  "rtop10 rtop4b"
 ]
 
 side.lines = [
@@ -85,8 +99,13 @@ windscreen.lines = [
   "windscreen1 windscreen2 windscreen3 windscreen4"
 ]
 
-windscreenTop.lines = [
-  "924,360 834,360 834,314 924,314 924,360"
+rside.lines = [
+  "rside1 rside2 rside3 rside1"
+]
+
+rtop.lines = [
+  "rtop5 rtop6 rtop7 rtop8 rtop9 rtop10",
+  "rtop4a rtop4b"
 ]
 
 front.curves = [
@@ -96,31 +115,39 @@ front.curves = [
 ]
 
 [[xrenders]]
-object = "windscreen"
-comment = "Windscreen"
-translate = { x = 800, y = 400 }
+object = "rear"
+comment = "Rear"
+translate = { x = 1600, y = 460 }
 flip = ""
-hide = true
+scale = 2.25
 
 [[renders]]
 object = "windscreen"
 comment = "Windscreen"
-translate = { x = 560, y = 460 }
+translate = { x = 500, y = 450 }
 flip = ""
 scale = 2.25
 
-[[xrenders]]
-object = "windscreenTop"
-comment = "Top of windscreen"
-translate = { x = 400, y = 400 }
+[[renders]]
+object = "rtop"
+comment = "Rear top"
+translate = { x = 1600, y = 460 }
 flip = ""
-# scale = 1.5
+scale = 2.25
 
-[[xrenders]]
-object = "front"
-comment = "Windscreen side, flipped"
-translate = { x = 1000, y = 250 }
+[[renders]]
+object = "rside"
+comment = "Rear side"
+translate = { x = 1260, y = 720 }
+flip = ""
+scale = 0.12
+
+[[renders]]
+object = "rside"
+comment = "Rear side, flipped"
+translate = { x = 1260, y = 180 }
 flip = "vflip"
+scale = 0.12
 
 [[renders]]
 object = "side"
@@ -132,48 +159,48 @@ scale = 2.25
 [[renders]]
 object = "side"
 comment = "Side of main canopy, flipped"
-translate = { x = 950, y = 200 }
+translate = { x = 950, y = 180 }
 flip = "vflip"
 scale = 2.25
 
 [[renders]]
 object = "top"
 comment = "Top of main canopy"
-translate = { x = 950, y = 430 }
+translate = { x = 950, y = 450 }
 flip = ""
 scale = 2.25
 
 [[renders]]
 object = "wtop"
 comment = "Top of windscreen"
-translate = { x = 700, y = 440 }
+translate = { x = 660, y = 450 }
 flip = ""
 scale = 2.25
 
 [[renders]]
 object = "trap"
 comment = "Trapezoid on side of windscreen"
-translate = { x = 660, y = 625 }
+translate = { x = 620, y = 680 }
 flip = ""
 scale = 2.25
 
 [[renders]]
 object = "trap"
 comment = "Trapezoid on side of windscreen, flipped"
-translate = { x = 660, y = 280 }
+translate = { x = 620, y = 220 }
 flip = "vflip"
 scale = 2.25
 
 [[renders]]
 object = "triangle"
 comment = "Triangle on side of windscreen"
-translate = { x = 625, y = 750 }
+translate = { x = 520, y = 720 }
 flip = ""
 scale = 0.8
 
 [[renders]]
 object = "triangle"
 comment = "Triangle on side of windscreen, flipped"
-translate = { x = 625, y = 160 }
+translate = { x = 520, y = 180 }
 flip = "vflip"
 scale = 0.8
