@@ -75,22 +75,27 @@ rear.lines = [
 side.lines = [
 "side1 side2 side3 side4 side1"
 ]
+side.scale = 2.25
 
 top.lines = [
 "top1 top2 top3 top4 top1"
 ]
+top.scale = 2.25
 
 triangle.lines = [
 "triangle1 triangle2 triangle3 triangle1"
 ]
+triangle.scale = 0.8
 
 trap.lines = [
 "trap1 trap2 trap3 trap4 trap1"
 ]
+trap.scale = 2.25
 
 wtop.lines = [
 "wtop1 wtop2 wtop3 wtop4 wtop1"
 ]
+wtop.scale = 2.25
 
 windscreen.beziers = [
 "windscreen1 6,22 6,44 windscreen4"
@@ -98,15 +103,18 @@ windscreen.beziers = [
 windscreen.lines = [
 "windscreen1 windscreen2 windscreen3 windscreen4"
 ]
+windscreen.scale = 2.25
 
 rside.lines = [
 "rside1 rside2 rside3 rside1"
 ]
+rside.scale = 0.12
 
 rtop.lines = [
 "rtop5 rtop6 rtop7 rtop8 rtop9 rtop10",
 "rtop4a rtop4b"
 ]
+rtop.scale = 2.25
 
 front.curves = [
 "front1 895,384 981,396 front3",
@@ -126,81 +134,69 @@ object = "windscreen"
 comment = "Windscreen"
 translate = { x = 500, y = 450 }
 flip = ""
-scale = 2.25
 
 [[renders]]
 object = "rtop"
 comment = "Rear top"
 translate = { x = 1600, y = 460 }
 flip = ""
-scale = 2.25
 
 [[renders]]
 object = "rside"
 comment = "Rear side"
 translate = { x = 1260, y = 720 }
 flip = ""
-scale = 0.12
 
 [[renders]]
 object = "rside"
 comment = "Rear side, flipped"
 translate = { x = 1260, y = 180 }
 flip = "vflip"
-scale = 0.12
 
 [[renders]]
 object = "side"
 comment = "Side of main canopy"
 translate = { x = 950, y = 720 }
 flip = ""
-scale = 2.25
 
 [[renders]]
 object = "side"
 comment = "Side of main canopy, flipped"
 translate = { x = 950, y = 180 }
 flip = "vflip"
-scale = 2.25
 
 [[renders]]
 object = "top"
 comment = "Top of main canopy"
 translate = { x = 950, y = 450 }
 flip = ""
-scale = 2.25
 
 [[renders]]
 object = "wtop"
 comment = "Top of windscreen"
 translate = { x = 660, y = 450 }
 flip = ""
-scale = 2.25
 
 [[renders]]
 object = "trap"
 comment = "Trapezoid on side of windscreen"
 translate = { x = 620, y = 680 }
 flip = ""
-scale = 2.25
 
 [[renders]]
 object = "trap"
 comment = "Trapezoid on side of windscreen, flipped"
 translate = { x = 620, y = 220 }
 flip = "vflip"
-scale = 2.25
 
 [[renders]]
 object = "triangle"
 comment = "Triangle on side of windscreen"
 translate = { x = 520, y = 720 }
 flip = ""
-scale = 0.8
 
 [[renders]]
 object = "triangle"
 comment = "Triangle on side of windscreen, flipped"
 translate = { x = 520, y = 180 }
 flip = "vflip"
-scale = 0.8
