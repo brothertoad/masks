@@ -65,53 +65,53 @@ rtop10 = { x = 72, y = 190 }
 
 [objects]
 xrear.curves = [
-  "rear1 192,476 245,454 307,431 362,414 421,399 rear2",
-  "rear3 454,610 390,604 327,593 272,579 204,555 154,536 rear1",
+"rear1 192,476 245,454 307,431 362,414 421,399 rear2",
+"rear3 454,610 390,604 327,593 272,579 204,555 154,536 rear1",
 ]
 rear.lines = [
-  "rtop10 rtop4b"
+"rtop10 rtop4b"
 ]
 
 side.lines = [
-  "side1 side2 side3 side4 side1"
+"side1 side2 side3 side4 side1"
 ]
 
 top.lines = [
-  "top1 top2 top3 top4 top1"
+"top1 top2 top3 top4 top1"
 ]
 
 triangle.lines = [
-  "triangle1 triangle2 triangle3 triangle1"
+"triangle1 triangle2 triangle3 triangle1"
 ]
 
 trap.lines = [
-  "trap1 trap2 trap3 trap4 trap1"
+"trap1 trap2 trap3 trap4 trap1"
 ]
 
 wtop.lines = [
-  "wtop1 wtop2 wtop3 wtop4 wtop1"
+"wtop1 wtop2 wtop3 wtop4 wtop1"
 ]
 
 windscreen.beziers = [
-  "windscreen1 6,22 6,44 windscreen4"
+"windscreen1 6,22 6,44 windscreen4"
 ]
 windscreen.lines = [
-  "windscreen1 windscreen2 windscreen3 windscreen4"
+"windscreen1 windscreen2 windscreen3 windscreen4"
 ]
 
 rside.lines = [
-  "rside1 rside2 rside3 rside1"
+"rside1 rside2 rside3 rside1"
 ]
 
 rtop.lines = [
-  "rtop5 rtop6 rtop7 rtop8 rtop9 rtop10",
-  "rtop4a rtop4b"
+"rtop5 rtop6 rtop7 rtop8 rtop9 rtop10",
+"rtop4a rtop4b"
 ]
 
 front.curves = [
-  "front1 895,384 981,396 front3",
-  "front3 1035,470 992,517 front4",
-  "front4 885,487 front1"
+"front1 895,384 981,396 front3",
+"front3 1035,470 992,517 front4",
+"front4 885,487 front1"
 ]
 
 [[xrenders]]
