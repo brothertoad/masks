@@ -2,8 +2,10 @@
 title = "Tamiya-48-Bf-109E-3"
 printName = "Tamiya-48-Bf-109E-3"
 strokeColor = "black"
-width = 180
-height = 90
+physicalWidth = "72mm"
+physicalHeight = "36mm"
+width = 1800
+height = 900
 scale = 0.4
 strokeWidth = 1
 
