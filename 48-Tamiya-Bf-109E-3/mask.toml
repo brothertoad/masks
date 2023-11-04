@@ -5,6 +5,7 @@
 # The triangle at the bottom of the side of the windscreen is still a bit too
 # large.
 # The windscreen could be a bit narrower, as could the top of the windscreen.
+# The top of the rear section must be masked by hand.
 
 [global]
 title = "Tamiya-48-Bf-109E-3"
