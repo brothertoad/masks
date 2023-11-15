@@ -1,0 +1,129 @@
+[global]
+title = "48-Hasegawa-Ki-44-wings"
+printName = "48-Hasegawa-Ki-44-wings"
+physicalWidth = "180mm"
+physicalHeight = "90mm"
+width = 2000
+height = 1800
+# scale = 0.4
+scale = 1.4
+strokeWidth = 1
+
+[points]
+rear1 = { x = 112, y = 512 }
+rear2 = { x = 496, y = 390 }
+rear3 = { x = 488, y = 610 }
+side1 = { x = 519, y = 389 }
+side2 = { x = 772, y = 373 }
+side3 = { x = 819, y = 598 }
+side4 = { x = 515, y = 608 }
+front1 = { x = 823, y = 415 }
+front3 = { x = 1067, y = 422}
+front4 = { x = 953, y = 549 }
+
+[objects]
+innertop.lines = [
+"576,297 603,251"
+]
+innertop.curves = [
+"603,251 664,264 755,272 845,259",
+"845,259 851,288 842,317",
+"842,317 748,328 632,318 576,297"
+]
+
+# from canopy
+
+rear.curves = [
+"rear1 192,476 245,454 307,431 362,414 421,399 rear2",
+"rear3 454,610 390,604 327,593 272,579 204,555 154,536 rear1",
+]
+rear.lines = [
+"rear2 rear3"
+]
+
+side.curves = [
+"side1 591,383 667,377 727,373 side2"
+]
+side.lines = [
+"side2 side3 side4 side1"
+]
+
+windscreen.beziers = [
+"1080,395 1058,351 1058,323 1080,279"
+]
+windscreen.lines = [
+"1080,395 933,360 933,314 1080,279"
+]
+
+windscreenTop.lines = [
+"924,360 834,360 834,314 924,314 924,360"
+]
+
+front.curves = [
+"front1 895,384 981,396 front3",
+"front3 1035,470 992,517 front4",
+"front4 885,487 front1"
+]
+
+[[renders]]
+object = "innertop"
+comment = "Inner section, top of wing"
+translate = { x = 1580, y = 640 }
+flip = ""
+scale = 2.2
+
+[[xrenders]]
+object = "windscreen"
+comment = "Windscreen"
+translate = { x = 800, y = 400 }
+flip = ""
+hide = true
+
+[[xrenders]]
+object = "windscreen"
+comment = "Windscreen"
+translate = { x = 200, y = 400 }
+flip = "hflip"
+
+[[xrenders]]
+object = "windscreenTop"
+comment = "Top of windscreen"
+translate = { x = 400, y = 400 }
+flip = ""
+# scale = 1.5
+
+[[xrenders]]
+object = "front"
+comment = "Windscreen side"
+translate = { x = 1000, y = 550 }
+flip = ""
+
+[[xrenders]]
+object = "front"
+comment = "Windscreen side, flipped"
+translate = { x = 1000, y = 250 }
+flip = "vflip"
+
+[[xrenders]]
+object = "side"
+comment = "Side window, front"
+translate = { x = 680, y = 500 }
+flip = ""
+
+[[xrenders]]
+object = "side"
+comment = "Side window, front, flipped"
+translate = { x = 680, y = 300 }
+flip = "vflip"
+
+[[xrenders]]
+object = "rear"
+comment = "Side window, rear"
+translate = { x = 300, y = 600 }
+flip = ""
+
+[[xrenders]]
+object = "rear"
+comment = "Side window, rear, flipped"
+translate = { x = 300, y = 200 }
+flip = "vflip"
