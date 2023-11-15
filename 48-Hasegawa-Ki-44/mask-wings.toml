@@ -21,14 +21,19 @@ front1 = { x = 823, y = 415 }
 front3 = { x = 1067, y = 422}
 front4 = { x = 953, y = 549 }
 
+innertop1 = { x = 576, y = 297}
+innertop2 = { x = 603, y = 251}
+innertop3 = { x = 845, y = 259}
+innertop4 = { x = 842, y = 317}
+
 [objects]
 innertop.lines = [
-"576,297 603,251"
+"innertop1 innertop2"
 ]
 innertop.curves = [
-"603,251 664,264 755,272 845,259",
-"845,259 851,288 842,317",
-"842,317 748,328 632,318 576,297"
+"innertop2 664,264 755,272 innertop3",
+"innertop3 851,288 innertop4",
+"innertop4 748,328 632,318 innertop1"
 ]
 
 # from canopy
