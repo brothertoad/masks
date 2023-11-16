@@ -3,132 +3,67 @@ title = "48-Hasegawa-Ki-44-wings"
 printName = "48-Hasegawa-Ki-44-wings"
 physicalWidth = "180mm"
 physicalHeight = "90mm"
-width = 2000
-height = 1800
+width = 1800
+height = 660
 # scale = 0.4
 scale = 1.4
 strokeWidth = 1
 
 [points]
-rear1 = { x = 112, y = 512 }
-rear2 = { x = 496, y = 390 }
-rear3 = { x = 488, y = 610 }
-side1 = { x = 519, y = 389 }
-side2 = { x = 772, y = 373 }
-side3 = { x = 819, y = 598 }
-side4 = { x = 515, y = 608 }
-front1 = { x = 823, y = 415 }
-front3 = { x = 1067, y = 422}
-front4 = { x = 953, y = 549 }
 
 innertop1 = { x = 576, y = 297}
 innertop2 = { x = 603, y = 251}
-innertop3 = { x = 845, y = 259}
-innertop4 = { x = 842, y = 317}
+innertop3 = { x = 855, y = 259}
+innertop4 = { x = 852, y = 317}
+
+innerbottom1 = { x = 149, y = 26 }
+innerbottom2 = { x = 134, y = 102 }
+innerbottom3 = { x = 296, y = 102 }
+innerbottom4 = { x = 388, y = 63 }
 
 [objects]
+
 innertop.lines = [
 "innertop1 innertop2"
 ]
 innertop.curves = [
 "innertop2 664,264 755,272 innertop3",
-"innertop3 851,288 innertop4",
+"innertop3 861,288 innertop4",
 "innertop4 748,328 632,318 innertop1"
 ]
 
-# from canopy
-
-rear.curves = [
-"rear1 192,476 245,454 307,431 362,414 421,399 rear2",
-"rear3 454,610 390,604 327,593 272,579 204,555 154,536 rear1",
+innerbottom.lines = [
+"innerbottom1 innerbottom4 innerbottom3"
 ]
-rear.lines = [
-"rear2 rear3"
-]
-
-side.curves = [
-"side1 591,383 667,377 727,373 side2"
-]
-side.lines = [
-"side2 side3 side4 side1"
-]
-
-windscreen.beziers = [
-"1080,395 1058,351 1058,323 1080,279"
-]
-windscreen.lines = [
-"1080,395 933,360 933,314 1080,279"
-]
-
-windscreenTop.lines = [
-"924,360 834,360 834,314 924,314 924,360"
-]
-
-front.curves = [
-"front1 895,384 981,396 front3",
-"front3 1035,470 992,517 front4",
-"front4 885,487 front1"
+innerbottom.beziers = [
+"innerbottom1 130,48 122,68 innerbottom2",
+"innerbottom2 166,82 228,84 innerbottom3"
 ]
 
 [[renders]]
 object = "innertop"
 comment = "Inner section, top of wing"
-translate = { x = 1580, y = 640 }
+translate = { x = 1300, y = 180 }
 flip = ""
 scale = 2.2
 
-[[xrenders]]
-object = "windscreen"
-comment = "Windscreen"
-translate = { x = 800, y = 400 }
-flip = ""
-hide = true
-
-[[xrenders]]
-object = "windscreen"
-comment = "Windscreen"
-translate = { x = 200, y = 400 }
-flip = "hflip"
-
-[[xrenders]]
-object = "windscreenTop"
-comment = "Top of windscreen"
-translate = { x = 400, y = 400 }
-flip = ""
-# scale = 1.5
-
-[[xrenders]]
-object = "front"
-comment = "Windscreen side"
-translate = { x = 1000, y = 550 }
-flip = ""
-
-[[xrenders]]
-object = "front"
-comment = "Windscreen side, flipped"
-translate = { x = 1000, y = 250 }
+[[renders]]
+object = "innertop"
+comment = "Inner section, top of wing, flipped"
+translate = { x = 1300, y = 420 }
 flip = "vflip"
+scale = 2.2
 
-[[xrenders]]
-object = "side"
-comment = "Side window, front"
-translate = { x = 680, y = 500 }
+[[renders]]
+object = "innerbottom"
+comment = "Inner section, bottom of wing"
+translate = { x = 564, y = 160 }
 flip = ""
+scale = 2.2
 
-[[xrenders]]
-object = "side"
-comment = "Side window, front, flipped"
-translate = { x = 680, y = 300 }
+[[renders]]
+object = "innerbottom"
+comment = "Inner section, bottom of wing, flipped"
+translate = { x = 564, y = 400 }
 flip = "vflip"
-
-[[xrenders]]
-object = "rear"
-comment = "Side window, rear"
-translate = { x = 300, y = 600 }
-flip = ""
-
-[[xrenders]]
-object = "rear"
-comment = "Side window, rear, flipped"
-translate = { x = 300, y = 200 }
-flip = "vflip"
+scale = 2.2
