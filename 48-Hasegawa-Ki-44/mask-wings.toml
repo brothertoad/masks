@@ -1,12 +1,12 @@
 [global]
 title = "48-Hasegawa-Ki-44-wings"
 printName = "48-Hasegawa-Ki-44-wings"
-physicalWidth = "180mm"
-physicalHeight = "90mm"
+physicalWidth = "120mm"
+physicalHeight = "60mm"
 width = 1800
 height = 660
-# scale = 0.4
-scale = 1.4
+scale = 0.6
+# scale = 1.4
 strokeWidth = 1
 
 [points]
@@ -33,7 +33,7 @@ innertop.curves = [
 ]
 
 innerbottom.lines = [
-"innerbottom1 innerbottom4 innerbottom3"
+"innerbottom3 innerbottom4 innerbottom1"
 ]
 innerbottom.beziers = [
 "innerbottom1 130,48 122,68 innerbottom2",
