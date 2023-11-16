@@ -43,27 +43,27 @@ innerbottom.beziers = [
 [[renders]]
 object = "innertop"
 comment = "Inner section, top of wing"
-translate = { x = 1300, y = 180 }
+translate = { x = 1200, y = 180 }
 flip = ""
 scale = 2.2
 
 [[renders]]
 object = "innertop"
 comment = "Inner section, top of wing, flipped"
-translate = { x = 1300, y = 420 }
+translate = { x = 1200, y = 420 }
 flip = "vflip"
 scale = 2.2
 
 [[renders]]
 object = "innerbottom"
 comment = "Inner section, bottom of wing"
-translate = { x = 564, y = 160 }
+translate = { x = 400, y = 160 }
 flip = ""
 scale = 2.2
 
 [[renders]]
 object = "innerbottom"
 comment = "Inner section, bottom of wing, flipped"
-translate = { x = 564, y = 400 }
+translate = { x = 400, y = 400 }
 flip = "vflip"
 scale = 2.2
