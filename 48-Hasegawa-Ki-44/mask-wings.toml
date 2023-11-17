@@ -1,3 +1,7 @@
+# Bottom sections are too large.
+# Top sections curl a bit too much at the wing edge (where the
+# top and bottom meet).
+
 [global]
 title = "48-Hasegawa-Ki-44-wings"
 printName = "48-Hasegawa-Ki-44-wings"
@@ -45,25 +49,25 @@ object = "innertop"
 comment = "Inner section, top of wing"
 translate = { x = 1200, y = 180 }
 flip = ""
-scale = 2.2
+scale = 2.64
 
 [[renders]]
 object = "innertop"
 comment = "Inner section, top of wing, flipped"
-translate = { x = 1200, y = 420 }
+translate = { x = 1200, y = 480 }
 flip = "vflip"
-scale = 2.2
+scale = 2.64
 
 [[renders]]
 object = "innerbottom"
 comment = "Inner section, bottom of wing"
 translate = { x = 400, y = 160 }
 flip = ""
-scale = 2.2
+scale = 2.64
 
 [[renders]]
 object = "innerbottom"
 comment = "Inner section, bottom of wing, flipped"
-translate = { x = 400, y = 400 }
+translate = { x = 400, y = 480 }
 flip = "vflip"
-scale = 2.2
+scale = 2.64
