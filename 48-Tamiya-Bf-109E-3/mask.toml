@@ -125,7 +125,7 @@ windscreen.beziers = [
 "windscreen1 6,22 6,44 windscreen4"
 ]
 windscreen.lines = [
-"windscreen1 windscreen2 windscreen3 windscreen4"
+"windscreen4 windscreen3 windscreen2 windscreen1"
 ]
 windscreen.scale = 2.25
 
@@ -134,11 +134,12 @@ rside.lines = [
 ]
 rside.scale = 0.16
 
-rtop.lines = [
-"rtop5 rtop6 rtop7 rtop8 rtop9 rtop10",
-"rtop4a rtop4b"
-]
-rtop.scale = 2.25
+# comment out, since there are disjoint
+# rtop.lines = [
+# "rtop5 rtop6 rtop7 rtop8 rtop9 rtop10",
+# "rtop4a rtop4b"
+# ]
+# rtop.scale = 2.25
 
 rtophalf.lines = [
 "rtophalf2 rtophalf3 rtophalf4"
