@@ -1,8 +1,12 @@
 [global]
-title = "48-Hasegawa-Ki-44"
-printName = "48-Hasegawa-Ki-44"
-width = 120
-height = 90
+title = "Hasegawa-48-Ki-44"
+printName = "Hasegawa-48-Ki-44"
+physicalWidth = "120mm"
+physicalHeight = "90mm"
+width = 1200
+height = 900
+scale = 1.0
+strokeWidth = 1
 
 [points]
 rear1 = { x = 112, y = 512 }
@@ -36,7 +40,7 @@ windscreen.beziers = [
 "1080,395 1058,351 1058,323 1080,279"
 ]
 windscreen.lines = [
-"1080,395 933,360 933,314 1080,279"
+"1080,279 933,314 933,360 1080,395"
 ]
 
 windscreenTop.lines = [
@@ -84,13 +88,13 @@ flip = "vflip"
 [[renders]]
 object = "side"
 comment = "Side window, front"
-translate = { x = 680, y = 500 }
+translate = { x = 700, y = 600 }
 flip = ""
 
 [[renders]]
 object = "side"
 comment = "Side window, front, flipped"
-translate = { x = 680, y = 300 }
+translate = { x = 700, y = 200 }
 flip = "vflip"
 
 [[renders]]
