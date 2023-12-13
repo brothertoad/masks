@@ -1,10 +1,10 @@
 [global]
 title = "Hasegawa 1/48 P-47D Bubbletop"
 # printName = "title"
-physicalWidth = "120mm"
-physicalHeight = "80mm"
-width = 1200
-height = 800
+physicalWidth = "160mm"
+physicalHeight = "50mm"
+width = 1600
+height = 500
 scale = 1.0
 strokeWidth = 1
 
@@ -15,7 +15,11 @@ ws2a = { x = 100, y = 70 }
 ws3 = { x = 160, y = 100 }
 ws4 = { x = 200, y = 300 }
 ws4a = { x = 100, y = 270 }
-# p = { x = , y =  }
+s1 = { x = 0, y = 300 }
+s2 = { x = 110, y = 100 }
+s3 = { x = 180, y = 100 }
+s4 = { x = 200, y = 300 }
+s5 = { x = 0, y = 300 }
 # p = { x = , y =  }
 # p = { x = , y =  }
 # p = { x = , y =  }
@@ -31,11 +35,22 @@ ws.qbeziers = [
 "ws2 ws2a ws3",
 "ws4 ws4a ws1"
 ]
+s.lines = [
+"s1 s2 s3 s4 s1"
+]
 
 [[renders]]
 object = "ws"
 comment = "Windscreen"
-translate = { x = 600, y = 400 }
+translate = { x = 200, y = 250 }
 flip = ""
-# scale = 1.25
+scale = 0.35
+hide = false
+
+[[renders]]
+object = "s"
+comment = "Side of windscreen"
+translate = { x = 500, y = 300 }
+flip = ""
+scale = 0.4
 hide = false
