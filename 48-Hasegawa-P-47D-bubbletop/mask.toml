@@ -11,10 +11,10 @@ strokeWidth = 1
 [points]
 ws1 = { x = 0, y = 300 }
 ws2 = { x = 40, y = 100 }
-ws2a = { x = 80, y = 70 }
-ws3 = { x = 120, y = 100 }
-ws4 = { x = 160, y = 300 }
-ws4a = { x = 80, y = 270 }
+ws2a = { x = 100, y = 70 }
+ws3 = { x = 160, y = 100 }
+ws4 = { x = 200, y = 300 }
+ws4a = { x = 100, y = 270 }
 # p = { x = , y =  }
 # p = { x = , y =  }
 # p = { x = , y =  }
@@ -37,4 +37,5 @@ object = "ws"
 comment = "Windscreen"
 translate = { x = 600, y = 400 }
 flip = ""
+# scale = 1.25
 hide = false
