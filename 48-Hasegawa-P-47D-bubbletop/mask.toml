@@ -20,7 +20,17 @@ s2 = { x = 110, y = 100 }
 s3 = { x = 180, y = 100 }
 s4 = { x = 200, y = 300 }
 s5 = { x = 0, y = 300 }
-# p = { x = , y =  }
+c1 = { x = 0, y = 0 }
+c1a = { x = 20, y = 100 }
+c1b = { x = 20, y = 200 }
+c2 = { x = 20, y = 300 }
+c2a = { x = 200, y = 320 }
+c2b = { x = 400, y = 320 }
+c3 = { x = 600, y = 270 }
+c4 = { x = 520, y = 200 }
+c5 = { x = 120, y = 210 }
+c6 = { x = 80, y = 10 }
+c7 = { x = 0, y = 0 }
 # p = { x = , y =  }
 # p = { x = , y =  }
 # p = { x = , y =  }
@@ -38,6 +48,21 @@ ws.qbeziers = [
 s.lines = [
 "s1 s2 s3 s4 s1"
 ]
+c.beziers = [
+"c1 c1a c1b c2",
+"c2 c2a c2b c3"
+]
+c.lines = [
+"c3 c4 c5 c6 c1"
+]
+
+[[renders]]
+object = "c"
+comment = "Main canopy"
+translate = { x = 800, y = 250 }
+flip = ""
+scale = 0.6
+hide = false
 
 [[renders]]
 object = "ws"
@@ -50,7 +75,7 @@ hide = false
 [[renders]]
 object = "s"
 comment = "Side of windscreen"
-translate = { x = 500, y = 300 }
+translate = { x = 400, y = 300 }
 flip = ""
 scale = 0.4
 hide = false
