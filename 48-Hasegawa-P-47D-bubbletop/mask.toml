@@ -9,17 +9,19 @@ scale = 1.0
 strokeWidth = 1
 
 [points]
-ws1 = { x = 0, y = 300 }
-ws2 = { x = 40, y = 100 }
+ws1 = { x = 0, y = 350 }
+ws2 = { x = 40, y = 110 }
 ws2a = { x = 100, y = 70 }
-ws3 = { x = 160, y = 100 }
-ws4 = { x = 200, y = 300 }
-ws4a = { x = 100, y = 270 }
+ws3 = { x = 160, y = 110 }
+ws4 = { x = 200, y = 350 }
+ws4a = { x = 100, y = 310 }
+
 s1 = { x = 0, y = 300 }
 s2 = { x = 110, y = 100 }
-s3 = { x = 180, y = 100 }
-s4 = { x = 200, y = 300 }
-s5 = { x = 0, y = 300 }
+s3 = { x = 160, y =  95 }
+s4 = { x = 210, y = 260 }
+# s5 = { x = 0, y = 300 }
+
 c1 = { x = 0, y = 0 }
 c1a = { x = 20, y = 100 }
 c1b = { x = 20, y = 200 }
@@ -62,7 +64,7 @@ comment = "Main canopy"
 translate = { x = 800, y = 250 }
 flip = ""
 scale = 0.6
-hide = false
+hide = true
 
 [[renders]]
 object = "ws"
@@ -75,7 +77,7 @@ hide = false
 [[renders]]
 object = "s"
 comment = "Side of windscreen"
-translate = { x = 400, y = 300 }
+translate = { x = 320, y = 300 }
 flip = ""
 scale = 0.4
 hide = false
