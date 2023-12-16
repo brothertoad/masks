@@ -18,9 +18,9 @@ ws4 = { x = 190, y = 350 }
 ws4a = { x = 100, y = 310 }
 
 s1 = { x = 0, y = 300 }
-s2 = { x = 70, y = 110 }
-s3 = { x = 160, y =  95 }
-s4 = { x = 180, y = 265 }
+s2 = { x = 55, y = 110 }
+s3 = { x = 110, y =  90 }
+s4 = { x = 175, y = 240 }
 # s5 = { x = 0, y = 300 }
 
 c1 = { x = 0, y = 0 }
@@ -73,7 +73,7 @@ comment = "Windscreen"
 translate = { x = 200, y = 250 }
 flip = ""
 scale = 0.35
-hide = false
+hide = true
 
 [[renders]]
 object = "s"
