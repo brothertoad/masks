@@ -17,23 +17,44 @@ ws3 = { x = 160, y = 110 }
 ws4 = { x = 190, y = 350 }
 ws4a = { x = 100, y = 310 }
 
+# OK
 s1 = { x = 0, y = 300 }
 s2 = { x = 50, y = 120 }
 s3 = { x = 90, y =  100 }
 s4 = { x = 175, y = 240 }
-# s5 = { x = 0, y = 300 }
 
-c1 = { x = 0, y = 0 }
+cx1 = { x = 0, y = 40 }
+cx1a = { x = 20, y = 100 }
+cx1b = { x = 20, y = 200 }
+cx2 = { x = 20, y = 300 }
+cx2a = { x = 200, y = 320 }
+cx2b = { x = 400, y = 320 }
+cx3 = { x = 600, y = 270 }
+cx4 = { x = 520, y = 200 }
+cx5 = { x = 120, y = 210 }
+cx6 = { x = 80, y = 50 }
+
+c1 = { x = 0, y = 40 }
 c1a = { x = 20, y = 100 }
 c1b = { x = 20, y = 200 }
 c2 = { x = 20, y = 300 }
-c2a = { x = 200, y = 320 }
-c2b = { x = 400, y = 320 }
-c3 = { x = 600, y = 270 }
-c4 = { x = 520, y = 200 }
-c5 = { x = 120, y = 210 }
-c6 = { x = 80, y = 10 }
-c7 = { x = 0, y = 0 }
+c2a = { x = 120, y = 315 }
+c2b = { x = 240, y = 315 }
+c3 = { x = 300, y = 300 }
+c4 = { x = 280, y = 250 }
+c5 = { x = 80, y = 250 }
+c6 = { x = 80, y = 50 }
+
+# rear of canopy
+r1 = { x = -50, y = 150 }
+r2 = { x = -80, y = 200 }
+r3 = { x = -120, y = 200 }
+r4 = { x = -50, y = 50 }
+r4a = { x = 0, y = -30 }
+r5 = { x = 50, y = 50 }
+r6 = { x = 120, y = 200 }
+r7 = { x = 80, y = 200 }
+r8 = { x = 50, y = 150 }
 # p = { x = , y =  }
 # p = { x = , y =  }
 # p = { x = , y =  }
@@ -58,14 +79,28 @@ c.beziers = [
 c.lines = [
 "c3 c4 c5 c6 c1"
 ]
+r.lines = [
+"r5 r6 r7 r8 r1 r2 r3 r4"
+]
+r.qbeziers = [
+"r4 r4a r5"
+]
 
 [[renders]]
 object = "c"
 comment = "Main canopy"
-translate = { x = 800, y = 250 }
+translate = { x = 700, y = 250 }
 flip = ""
 scale = 0.6
-hide = true
+hide = false
+
+[[renders]]
+object = "r"
+comment = "Rear of main canopy"
+translate = { x = 400, y = 250 }
+flip = ""
+scale = 0.6
+hide = false
 
 [[renders]]
 object = "ws"
@@ -81,4 +116,4 @@ comment = "Side of windscreen"
 translate = { x = 320, y = 300 }
 flip = ""
 scale = 0.4
-hide = false
+hide = true
