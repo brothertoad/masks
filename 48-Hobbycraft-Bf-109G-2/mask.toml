@@ -1,0 +1,32 @@
+[global]
+title = "title"
+# printName = "title"
+physicalWidth = "120mm"
+physicalHeight = "90mm"
+width = 1200
+height = 900
+scale = 1.0
+strokeWidth = 1
+# strokeColor = "black"
+
+[points]
+# p = { x = , y =  }
+
+[objects]
+obj.curves = [
+]
+obj.beziers = [
+]
+obj.qbeziers = [
+]
+obj.lines = [
+]
+# obj.scale = 1.0
+
+[[renders]]
+object = ""
+# comment = ""
+# translate = { x = , y =  }
+# flip = ""
+# scale = 1.0
+# hide = false
