@@ -1,0 +1,135 @@
+[global]
+title = "Tamiya Ki-84"
+# printName = "title"
+physicalWidth = "150mm"
+physicalHeight = "150mm"
+width = 1500
+height = 1500
+scale = 1.0
+strokeWidth = 1
+# strokeColor = "black"
+
+[points]
+# p = { x = , y =  }
+# canopy front
+cf1 = { x = 0, y = 0 }
+cf2 = { x = -5, y = 95 }
+cf3 = { x = 95, y = 95 }
+cf4 = { x = 100, y = 5 }
+
+# windscreen
+w1 = { x = 80, y = 5 }
+w2 = { x =  0, y = 0 }
+w3 = { x =  0, y = 50 }
+w4 = { x = 80, y = 45 }
+
+# windscreen top
+wt1 = { x = 35, y = 0 }
+wt2 = { x =  0, y = 0 }
+wt3 = { x =  0, y = 50 }
+wt4 = { x = 35, y = 50 }
+
+[objects]
+# cf means canopy front
+cf.curves = [
+]
+cf.beziers = [
+"cf1 0,40 -3,50 cf2",
+"cf3 98,60 100,50 cf4"
+]
+cf.qbeziers = [
+]
+cf.lines = [
+"cf2 cf3",
+"cf4 cf1"
+]
+
+# windscreen
+w.lines = [
+"w1 w2 w3 w4"
+]
+w.beziers = [
+"w4 85,25 85,25 w1"
+]
+
+# windscreen top
+wt.lines = [
+"wt3 wt4 wt1 wt2"
+]
+wt.beziers = [
+"wt2 15,15 15,35 wt3"
+]
+
+[[renders]]
+object = "cf"
+# comment = ""
+translate = { x = 100, y = 100 }
+# flip = ""
+scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "cf"
+# comment = ""
+translate = { x = 250, y = 100 }
+# flip = ""
+scale = 1.1
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "cf"
+# comment = ""
+translate = { x = 400, y = 100 }
+# flip = ""
+scale = 0.9
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "w"
+# comment = ""
+translate = { x = 100, y = 250 }
+# flip = ""
+scale = 0.9
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "w"
+# comment = ""
+translate = { x = 250, y = 250 }
+# flip = ""
+scale = 0.8
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "w"
+# comment = ""
+translate = { x = 400, y = 250 }
+# flip = ""
+scale = 0.7
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "wt"
+# comment = ""
+translate = { x = 100, y = 350 }
+scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "wt"
+# comment = ""
+translate = { x = 200, y = 350 }
+scale = 1.1
+
+[[renders]]
+object = "wt"
+# comment = ""
+translate = { x = 300, y = 350 }
+scale = 0.9
