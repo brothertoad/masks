@@ -1,0 +1,83 @@
+[global]
+title = "Hasegawa Macchi"
+# printName = "title"
+physicalWidth = "150mm"
+physicalHeight = "150mm"
+width = 1500
+height = 1500
+scale = 1.0
+strokeWidth = 1
+# strokeColor = "black"
+
+[points]
+# p = { x = , y =  }
+
+[objects]
+obj.curves = [
+]
+obj.beziers = [
+]
+obj.qbeziers = [
+]
+side.lines = [
+"0,0 220,0 220,260 0,260 0,0"
+]
+# obj.scale = 1.0
+
+top.lines = [
+"0,0 140,0 140,240 0,240 0,0"
+]
+
+windscreen.lines = [
+"0,250 0,0 140,0 140,250"
+]
+windscreen.beziers = [
+"140,250 130,290 10,290 0,250"
+]
+
+triangle.lines = [
+"260,0 130,225 0,0"
+]
+triangle.qbeziers = [
+"0,0 130,30 260,0"
+]
+
+xtriangle.lines = [
+"0,0 260,0 130,225 0,0"
+]
+
+[[renders]]
+object = "side"
+# comment = ""
+translate = { x = 200, y = 200 }
+# flip = ""
+scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "top"
+# comment = ""
+translate = { x = 600, y = 200 }
+# flip = ""
+scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "windscreen"
+# comment = ""
+translate = { x = 900, y = 200 }
+# flip = ""
+scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "triangle"
+# comment = ""
+translate = { x = 200, y = 600 }
+# flip = ""
+scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
