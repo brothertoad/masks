@@ -2,9 +2,9 @@
 title = "Hasegawa Macchi"
 # printName = "title"
 physicalWidth = "150mm"
-physicalHeight = "150mm"
+physicalHeight = "60mm"
 width = 1500
-height = 1500
+height = 600
 scale = 1.0
 strokeWidth = 1
 # strokeColor = "black"
@@ -13,20 +13,15 @@ strokeWidth = 1
 # p = { x = , y =  }
 
 [objects]
-obj.curves = [
-]
-obj.beziers = [
-]
-obj.qbeziers = [
-]
 side.lines = [
-"0,0 220,0 220,260 0,260 0,0"
+"0,0 220,0 220,250 0,250 0,0"
 ]
-# obj.scale = 1.0
+side.scale = 0.24
 
 top.lines = [
-"0,0 140,0 140,240 0,240 0,0"
+"0,0 130,0 130,240 0,240 0,0"
 ]
+top.scale = 0.25
 
 windscreen.lines = [
 "0,250 0,0 140,0 140,250"
@@ -34,6 +29,7 @@ windscreen.lines = [
 windscreen.beziers = [
 "140,250 130,290 10,290 0,250"
 ]
+windscreen.scale = 0.18
 
 triangle.lines = [
 "260,0 130,225 0,0"
@@ -44,52 +40,44 @@ triangle.qbeziers = [
 triangle.segments = [
 "80,205 180,205"
 ]
-
-xtriangle.lines = [
-"0,0 260,0 130,225 0,0"
-]
+triangle.scale = 0.27
 
 [[renders]]
 object = "side"
-# comment = ""
 translate = { x = 100, y = 100 }
-# flip = ""
-scale = 0.24
-# hide = false
-# aspect = 1.0 # width to height ratio
 
 [[renders]]
 object = "side"
-# comment = ""
-translate = { x = 190, y = 100 }
-# flip = ""
-scale = 0.26
-# hide = false
-# aspect = 1.0 # width to height ratio
+translate = { x = 200, y = 100 }
+
+[[renders]]
+object = "side"
+translate = { x = 100, y = 230 }
+
+[[renders]]
+object = "side"
+translate = { x = 200, y = 230 }
 
 [[renders]]
 object = "top"
-# comment = ""
-translate = { x = 320, y = 100 }
-# flip = ""
-scale = 0.25
-# hide = false
-# aspect = 1.0 # width to height ratio
+translate = { x = 300, y = 100 }
+
+[[renders]]
+object = "top"
+translate = { x = 360, y = 100 }
+
+[[renders]]
+object = "top"
+translate = { x = 420, y = 100 }
 
 [[renders]]
 object = "windscreen"
-# comment = ""
 translate = { x = 500, y = 100 }
-# flip = ""
-scale = 0.18
-# hide = false
-# aspect = 1.0 # width to height ratio
 
 [[renders]]
 object = "triangle"
-# comment = ""
-translate = { x = 100, y = 300 }
-# flip = ""
-scale = 0.27
-# hide = false
-# aspect = 1.0 # width to height ratio
+translate = { x = 320, y = 230 }
+
+[[renders]]
+object = "triangle"
+translate = { x = 420, y = 230 }
