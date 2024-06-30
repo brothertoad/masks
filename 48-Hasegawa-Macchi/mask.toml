@@ -41,6 +41,9 @@ triangle.lines = [
 triangle.qbeziers = [
 "0,0 130,30 260,0"
 ]
+triangle.segments = [
+"80,205 180,205"
+]
 
 xtriangle.lines = [
 "0,0 260,0 130,225 0,0"
@@ -51,7 +54,7 @@ object = "side"
 # comment = ""
 translate = { x = 200, y = 200 }
 # flip = ""
-scale = 1.0
+scale = 0.24
 # hide = false
 # aspect = 1.0 # width to height ratio
 
@@ -60,7 +63,7 @@ object = "top"
 # comment = ""
 translate = { x = 600, y = 200 }
 # flip = ""
-scale = 1.0
+scale = 0.25
 # hide = false
 # aspect = 1.0 # width to height ratio
 
@@ -69,7 +72,7 @@ object = "windscreen"
 # comment = ""
 translate = { x = 900, y = 200 }
 # flip = ""
-scale = 1.0
+scale = 0.18
 # hide = false
 # aspect = 1.0 # width to height ratio
 
@@ -78,6 +81,6 @@ object = "triangle"
 # comment = ""
 translate = { x = 200, y = 600 }
 # flip = ""
-scale = 1.0
+scale = 0.27
 # hide = false
 # aspect = 1.0 # width to height ratio
