@@ -24,7 +24,7 @@ top.lines = [
 top.scale = 0.25
 
 windscreen.lines = [
-"0,250 0,0 140,0 140,250"
+"0,250 0,-30 140,-30 140,250"
 ]
 windscreen.beziers = [
 "140,250 130,290 10,290 0,250"
@@ -40,7 +40,7 @@ triangle.qbeziers = [
 triangle.segments = [
 "80,205 180,205"
 ]
-triangle.scale = 0.27
+triangle.scale = 0.26
 
 [[renders]]
 object = "side"
