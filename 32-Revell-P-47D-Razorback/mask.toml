@@ -1,0 +1,105 @@
+[global]
+title = "Revell P-47D Razorback"
+# printName = "title"
+physicalWidth = "150mm"
+physicalHeight = "150mm"
+width = 1500
+height = 1500
+scale = 1.0
+strokeWidth = 1
+# strokeColor = "black"
+
+[points]
+# p = { x = , y =  }
+wside1 = { x = 142, y = 130 }
+wside2 = { x = -65, y = 75 }
+
+[objects]
+obj.curves = [
+]
+obj.beziers = [
+]
+obj.qbeziers = [
+]
+obj.lines = [
+]
+# obj.scale = 1.0
+
+sideFront.lines = [
+"0,0 100,0 100,120 0,120 0,0"
+]
+
+topFront.lines = [
+"0,0 135,0 135,100 0,100 0,0"
+]
+
+topRear.lines = [
+"0,0 120,0 120,90 0,90 0,0"
+]
+
+# razor seems OK
+razor.lines = [
+"0,0 70,0 186,120 0,120 0,0"
+]
+
+wside.lines = [
+"0,0 136,0 wside1",
+"wside2 0,0"
+]
+wside.beziers = [
+"wside1 70,100 60,90 wside2"
+]
+
+[[renders]]
+object = "sideFront"
+# comment = ""
+translate = { x = 100, y = 100 }
+# flip = ""
+scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "sideFront"
+# comment = ""
+translate = { x = 100, y = 300 }
+# flip = ""
+scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "topFront"
+# comment = ""
+translate = { x = 300, y = 100 }
+# flip = ""
+scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "topRear"
+# comment = ""
+translate = { x = 300, y = 240 }
+# flip = ""
+scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "razor"
+# comment = ""
+translate = { x = 600, y = 100 }
+# flip = ""
+scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "wside"
+# comment = ""
+translate = { x = 120, y = 480 }
+# flip = ""
+scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
