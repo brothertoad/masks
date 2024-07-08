@@ -12,7 +12,7 @@ strokeWidth = 1
 [points]
 # p = { x = , y =  }
 wside1 = { x = 142, y = 130 }
-wside2 = { x = -65, y = 75 }
+wside2 = { x = -70, y = 72 }
 
 [objects]
 obj.curves = [
@@ -25,14 +25,17 @@ obj.lines = [
 ]
 # obj.scale = 1.0
 
+# side seems OK
 sideFront.lines = [
 "0,0 100,0 100,120 0,120 0,0"
 ]
 
+# this should curve a bit
 topFront.lines = [
-"0,0 135,0 135,100 0,100 0,0"
+"0,0 130,0 130,100 0,100 0,0"
 ]
 
+# dimensionally OK, but needs to curve a bit
 topRear.lines = [
 "0,0 120,0 120,90 0,90 0,0"
 ]
@@ -43,11 +46,11 @@ razor.lines = [
 ]
 
 wside.lines = [
-"0,0 136,0 wside1",
-"wside2 0,0"
+"4,0 136,0 wside1",
+"wside2 4,0"
 ]
 wside.beziers = [
-"wside1 70,100 60,90 wside2"
+"wside1 70,110 60,95 wside2"
 ]
 
 [[renders]]
@@ -56,7 +59,7 @@ object = "sideFront"
 translate = { x = 100, y = 100 }
 # flip = ""
 scale = 1.0
-# hide = false
+hide = true
 # aspect = 1.0 # width to height ratio
 
 [[renders]]
@@ -65,7 +68,7 @@ object = "sideFront"
 translate = { x = 100, y = 300 }
 # flip = ""
 scale = 1.0
-# hide = false
+hide = true
 # aspect = 1.0 # width to height ratio
 
 [[renders]]
