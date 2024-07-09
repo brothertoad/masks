@@ -15,29 +15,30 @@ wside1 = { x = 142, y = 130 }
 wside2 = { x = -70, y = 72 }
 
 [objects]
-obj.curves = [
-]
-obj.beziers = [
-]
-obj.qbeziers = [
-]
-obj.lines = [
-]
-# obj.scale = 1.0
 
 # side seems OK
 sideFront.lines = [
 "0,0 100,0 100,120 0,120 0,0"
 ]
 
-# this should curve a bit
+# dimensionally OK, but needs to curve a bit
 topFront.lines = [
-"0,0 130,0 130,100 0,100 0,0"
+"130,0 130,100",
+"0,100 0,0"
+]
+topFront.qbeziers = [
+"0,0 65,-5 130,0",
+"130,100 65,95 0,100"
 ]
 
 # dimensionally OK, but needs to curve a bit
 topRear.lines = [
-"0,0 120,0 120,90 0,90 0,0"
+"120,0 120,90",
+"0,90 0,0"
+]
+topRear.qbeziers = [
+"0,0 60,-5 120,0",
+"120,90 60,85 0,90"
 ]
 
 # razor seems OK
@@ -51,6 +52,18 @@ wside.lines = [
 ]
 wside.beziers = [
 "wside1 70,110 60,95 wside2"
+]
+
+wtop.qbeziers = [
+"0,-20 20,0 0,20"
+]
+wtop.lines = [
+"0,20 0,60",
+"0,-60 0,-20"
+]
+wtop.beziers = [
+"0,60 40,55 60,40 120,0",
+"120,0 60,-49 40,-55 0,-60"
 ]
 
 [[renders]]
@@ -73,26 +86,18 @@ hide = true
 
 [[renders]]
 object = "topFront"
-# comment = ""
-translate = { x = 300, y = 100 }
-# flip = ""
+translate = { x = 400, y = 100 }
 scale = 1.0
-# hide = false
-# aspect = 1.0 # width to height ratio
 
 [[renders]]
 object = "topRear"
-# comment = ""
-translate = { x = 300, y = 240 }
-# flip = ""
+translate = { x = 400, y = 240 }
 scale = 1.0
-# hide = false
-# aspect = 1.0 # width to height ratio
 
 [[renders]]
 object = "razor"
 # comment = ""
-translate = { x = 600, y = 100 }
+translate = { x = 660, y = 100 }
 # flip = ""
 scale = 1.0
 # hide = false
@@ -101,7 +106,16 @@ scale = 1.0
 [[renders]]
 object = "wside"
 # comment = ""
-translate = { x = 120, y = 480 }
+translate = { x = 140, y = 140 }
+# flip = ""
+scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "wtop"
+# comment = ""
+translate = { x = 140, y = 300 }
 # flip = ""
 scale = 1.0
 # hide = false
