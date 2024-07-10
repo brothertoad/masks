@@ -11,8 +11,8 @@ strokeWidth = 1
 
 [points]
 # p = { x = , y =  }
-wside1 = { x = 147, y = 130 }
-wside2 = { x = -80, y = 62 }
+wside1 = { x = 150, y = 130 }
+wside2 = { x = -75, y = 62 }
 
 [objects]
 
@@ -22,17 +22,19 @@ sideFront.lines = [
 ]
 
 topFront.lines = [
-"0,0 135,0 135,105 0,105 0,0"
+"0,0 135,0 140,105 -5,105 0,0"
 ]
 
+# topRear is OK
 topRear.lines = [
-"0,0 140,0 140,100 0,100 0,0"
+"0,0 140,0 135,100 5,100 0,0"
 ]
 
 razor.lines = [
-"-20,0 70,0 186,125 -20,125 -20,0"
+"-10,0 70,0 186,125 -10,125 -10,0"
 ]
 
+# wside is OK
 wside.lines = [
 "-1,0 136,0 wside1",
 "wside2 -1,0"
@@ -49,8 +51,8 @@ wtop.lines = [
 "0,-60 0,-25"
 ]
 wtop.beziers = [
-"0,60 50,55 70,50 130,0",
-"130,0 70,-50 50,-55 0,-60"
+"0,60 50,55 80,50 130,0",
+"130,0 80,-50 50,-55 0,-60"
 ]
 
 [[renders]]
@@ -80,6 +82,7 @@ scale = 1.0
 object = "topRear"
 translate = { x = 400, y = 240 }
 scale = 1.0
+hide = true
 
 [[renders]]
 object = "razor"
@@ -96,7 +99,7 @@ object = "wside"
 translate = { x = 140, y = 140 }
 # flip = ""
 scale = 1.0
-# hide = false
+hide = true
 # aspect = 1.0 # width to height ratio
 
 [[renders]]
