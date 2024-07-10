@@ -11,59 +11,46 @@ strokeWidth = 1
 
 [points]
 # p = { x = , y =  }
-wside1 = { x = 142, y = 130 }
-wside2 = { x = -70, y = 72 }
+wside1 = { x = 147, y = 130 }
+wside2 = { x = -80, y = 62 }
 
 [objects]
 
-# side seems OK
+# side seems OK - need to verify with actual mask
 sideFront.lines = [
 "0,0 100,0 100,120 0,120 0,0"
 ]
 
-# dimensionally OK, but needs to curve a bit
 topFront.lines = [
-"130,0 130,100",
-"0,100 0,0"
-]
-topFront.qbeziers = [
-"0,0 65,-5 130,0",
-"130,100 65,95 0,100"
+"0,0 135,0 135,105 0,105 0,0"
 ]
 
-# dimensionally OK, but needs to curve a bit
 topRear.lines = [
-"120,0 120,90",
-"0,90 0,0"
-]
-topRear.qbeziers = [
-"0,0 60,-5 120,0",
-"120,90 60,85 0,90"
+"0,0 140,0 140,100 0,100 0,0"
 ]
 
-# razor seems OK
 razor.lines = [
-"0,0 70,0 186,120 0,120 0,0"
+"-20,0 70,0 186,125 -20,125 -20,0"
 ]
 
 wside.lines = [
-"4,0 136,0 wside1",
-"wside2 4,0"
+"-1,0 136,0 wside1",
+"wside2 -1,0"
 ]
 wside.beziers = [
 "wside1 70,110 60,95 wside2"
 ]
 
 wtop.qbeziers = [
-"0,-25 25,0 0,25"
+"0,-25 40,0 0,25"
 ]
 wtop.lines = [
-"0,25 0,70",
-"0,-70 0,-25"
+"0,25 0,60",
+"0,-60 0,-25"
 ]
 wtop.beziers = [
-"0,70 50,55 70,50 120,0",
-"120,0 70,-50 50,-55 0,-70"
+"0,60 50,55 70,50 130,0",
+"130,0 70,-50 50,-55 0,-60"
 ]
 
 [[renders]]
