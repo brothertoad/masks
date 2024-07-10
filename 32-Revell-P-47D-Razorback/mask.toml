@@ -16,11 +16,17 @@ wside2 = { x = -75, y = 62 }
 
 [objects]
 
-# side seems OK - need to verify with actual mask
+# sideFront is OK
 sideFront.lines = [
+"0,0 105,0 105,120 0,120 0,0"
+]
+
+# sideRear is OK
+sideRear.lines = [
 "0,0 100,0 100,120 0,120 0,0"
 ]
 
+# topFront is OK
 topFront.lines = [
 "0,0 135,0 135,105 -5,105 0,0"
 ]
@@ -30,8 +36,9 @@ topRear.lines = [
 "0,0 140,0 135,100 5,100 0,0"
 ]
 
+# razor is OK
 razor.lines = [
-"-10,0 70,0 186,135 -10,135 -10,0"
+"-10,0 70,0 190,130 -10,130 -10,0"
 ]
 
 # wside is OK
@@ -61,22 +68,23 @@ object = "sideFront"
 translate = { x = 100, y = 100 }
 # flip = ""
 scale = 1.0
-# hide = true
+hide = true
 # aspect = 1.0 # width to height ratio
 
 [[renders]]
-object = "sideFront"
+object = "sideRear"
 # comment = ""
-translate = { x = 100, y = 300 }
+translate = { x = 100, y = 100 }
 # flip = ""
 scale = 1.0
-hide = true
+# hide = true
 # aspect = 1.0 # width to height ratio
 
 [[renders]]
 object = "topFront"
 translate = { x = 300, y = 100 }
 scale = 1.0
+hide = true
 
 [[renders]]
 object = "topRear"
@@ -87,7 +95,7 @@ hide = true
 [[renders]]
 object = "razor"
 # comment = ""
-translate = { x = 530, y = 100 }
+translate = { x = 330, y = 100 }
 # flip = ""
 scale = 1.0
 # hide = false
