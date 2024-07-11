@@ -2,9 +2,9 @@
 title = "Revell P-47D Razorback"
 # printName = "title"
 physicalWidth = "150mm"
-physicalHeight = "150mm"
+physicalHeight = "50mm"
 width = 1500
-height = 1500
+height = 500
 scale = 1.0
 strokeWidth = 1
 # strokeColor = "black"
@@ -58,49 +58,57 @@ wtopcenter.lines = [
 "0,25 0,40 50,30 50,-30 0,-40 0,-25"
 ]
 
+# wtop is OK
 wtop.beziers = [
 "0,80 60,75 60,75 135,50"
 ]
 wtop.lines = [
-"135,50 100,40 0,45 0,80"
+"135,50 100,30 55,40 5,45 0,80"
 ]
 
-# commented out by renaming object
-xwtop.qbeziers = [
-"0,-25 40,0 0,25"
-]
-xwtop.lines = [
-"0,25 0,60",
-"0,-60 0,-25"
-]
-xwtop.beziers = [
-"0,60 50,55 80,50 130,0",
-"130,0 80,-50 50,-55 0,-60"
-]
 
 [[renders]]
 object = "sideFront"
-translate = { x = 100, y = 100 }
+translate = { x = 560, y = 100 }
 scale = 1.0
-hide = true
 
 [[renders]]
 object = "sideRear"
-translate = { x = 100, y = 100 }
+translate = { x = 700, y = 100 }
 scale = 1.0
-hide = true
+
+[[renders]]
+object = "razor"
+translate = { x = 880, y = 100 }
+scale = 1.0
+
+[[renders]]
+object = "sideFront"
+translate = { x = 560, y = 300 }
+scale = 1.0
+flip="vflip"
+
+[[renders]]
+object = "sideRear"
+translate = { x = 700, y = 300 }
+scale = 1.0
+flip="vflip"
+
+[[renders]]
+object = "razor"
+translate = { x = 880, y = 300 }
+scale = 1.0
+flip="vflip"
 
 [[renders]]
 object = "topFront"
-translate = { x = 300, y = 100 }
+translate = { x = 1100, y = 120 }
 scale = 1.0
-hide = true
 
 [[renders]]
 object = "topRear"
-translate = { x = 400, y = 240 }
+translate = { x = 1100, y = 280 }
 scale = 1.0
-hide = true
 
 [[renders]]
 object = "razor"
@@ -110,17 +118,27 @@ hide = true
 
 [[renders]]
 object = "wside"
-translate = { x = 140, y = 140 }
+translate = { x = 360, y = 280 }
 scale = 1.0
-hide = true
+
+[[renders]]
+object = "wside"
+translate = { x = 360, y = 100 }
+scale = 1.0
+flip="vflip"
 
 [[renders]]
 object = "wtop"
-translate = { x = 340, y = 100 }
+translate = { x = 120, y = 300 }
 scale = 1.0
 
 [[renders]]
-object = "wtopcenter"
-translate = { x = 140, y = 100 }
+object = "wtop"
+translate = { x = 120, y = 220 }
 scale = 1.0
-# hide = true
+flip="vflip"
+
+[[renders]]
+object = "wtopcenter"
+translate = { x = 100, y = 100 }
+scale = 1.0
