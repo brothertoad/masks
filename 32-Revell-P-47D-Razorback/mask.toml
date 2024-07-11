@@ -50,35 +50,44 @@ wside.beziers = [
 "wside1 70,110 60,95 wside2"
 ]
 
-wtop.qbeziers = [
-"0,-25 40,0 0,25"
+wtopcenter.qbeziers = [
+"0,-25 35,0 0,25"
+]
+wtopcenter.lines = [
+"0,25 0,40 50,40 50,-40 0,-40 0,-25"
+]
+
+wtop.beziers = [
+"0,80 100,75 120,55 200,0"
 ]
 wtop.lines = [
+"200,0 160,0 100,35 0,35 0,80"
+]
+
+# commented out by renaming object
+xwtop.qbeziers = [
+"0,-25 40,0 0,25"
+]
+xwtop.lines = [
 "0,25 0,60",
 "0,-60 0,-25"
 ]
-wtop.beziers = [
+xwtop.beziers = [
 "0,60 50,55 80,50 130,0",
 "130,0 80,-50 50,-55 0,-60"
 ]
 
 [[renders]]
 object = "sideFront"
-# comment = ""
 translate = { x = 100, y = 100 }
-# flip = ""
 scale = 1.0
 hide = true
-# aspect = 1.0 # width to height ratio
 
 [[renders]]
 object = "sideRear"
-# comment = ""
 translate = { x = 100, y = 100 }
-# flip = ""
 scale = 1.0
-# hide = true
-# aspect = 1.0 # width to height ratio
+hide = true
 
 [[renders]]
 object = "topFront"
@@ -94,27 +103,23 @@ hide = true
 
 [[renders]]
 object = "razor"
-# comment = ""
 translate = { x = 330, y = 100 }
-# flip = ""
 scale = 1.0
-# hide = false
-# aspect = 1.0 # width to height ratio
+hide = true
 
 [[renders]]
 object = "wside"
-# comment = ""
 translate = { x = 140, y = 140 }
-# flip = ""
 scale = 1.0
 hide = true
-# aspect = 1.0 # width to height ratio
 
 [[renders]]
 object = "wtop"
-# comment = ""
-translate = { x = 140, y = 300 }
-# flip = ""
+translate = { x = 340, y = 100 }
 scale = 1.0
-hide = true
-# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "wtopcenter"
+translate = { x = 140, y = 100 }
+scale = 1.0
+# hide = true
