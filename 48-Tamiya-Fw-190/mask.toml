@@ -1,10 +1,10 @@
 [global]
-title = "Tamiya-48-Fw-190"
+title = "Tamiya 1/48 Fw 190"
 printName = "Tamiya-48-Fw-190"
-physicalWidth = "120mm"
-physicalHeight = "90mm"
-width = 1200
-height = 900
+physicalWidth = "180mm"
+physicalHeight = "250mm"
+width = 1800
+height = 2500
 scale = 1.0
 strokeWidth = 1
 
@@ -21,90 +21,40 @@ front3 = { x = 1067, y = 422}
 front4 = { x = 953, y = 549 }
 
 [objects]
-rear.curves = [
-"rear1 192,476 245,454 307,431 362,414 421,399 rear2",
-"rear3 454,610 390,604 327,593 272,579 204,555 154,536 rear1",
-]
-rear.lines = [
-"rear2 rear3"
-]
-
-side.curves = [
-"side1 591,383 667,377 727,373 side2"
-]
-side.lines = [
-"side2 side3 side4 side1"
-]
-
-windscreen.beziers = [
-"1080,395 1058,351 1058,323 1080,279"
-]
 windscreen.lines = [
-"1080,279 933,314 933,360 1080,395"
+"0,0 90,0 90,48 0,48 0,0"
 ]
 
-windscreenTop.lines = [
-"924,360 834,360 834,314 924,314 924,360"
+side.lines = [
+"0,0 100,0 41,69 0,0"
 ]
 
-front.curves = [
-"front1 895,384 981,396 front3",
-"front3 1035,470 992,517 front4",
-"front4 885,487 front1"
+rside.lines = [
+"0,0 170,0 200,50 -10,90 0,0"
 ]
+
 
 [[renders]]
 object = "windscreen"
 comment = "Windscreen"
-translate = { x = 800, y = 400 }
+translate = { x = 100, y = 200 }
 flip = ""
-hide = true
-
-[[renders]]
-object = "windscreen"
-comment = "Windscreen"
-translate = { x = 200, y = 400 }
-flip = "hflip"
-
-[[renders]]
-object = "windscreenTop"
-comment = "Top of windscreen"
-translate = { x = 400, y = 400 }
-flip = ""
-# scale = 1.5
-
-[[renders]]
-object = "front"
-comment = "Windscreen side"
-translate = { x = 1000, y = 550 }
-flip = ""
-
-[[renders]]
-object = "front"
-comment = "Windscreen side, flipped"
-translate = { x = 1000, y = 250 }
-flip = "vflip"
+# hide = true
 
 [[renders]]
 object = "side"
-comment = "Side window, front"
-translate = { x = 700, y = 600 }
+comment = "Side"
+translate = { x = 100, y = 100 }
 flip = ""
 
 [[renders]]
 object = "side"
-comment = "Side window, front, flipped"
-translate = { x = 700, y = 200 }
+comment = "Side"
+translate = { x = 100, y = 300 }
 flip = "vflip"
 
 [[renders]]
-object = "rear"
-comment = "Side window, rear"
-translate = { x = 300, y = 600 }
-flip = ""
-
-[[renders]]
-object = "rear"
-comment = "Side window, rear, flipped"
-translate = { x = 300, y = 200 }
+object = "rside"
+comment = "Side of blown canopy"
+translate = { x = 300, y = 300 }
 flip = "vflip"
