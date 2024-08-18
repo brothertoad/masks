@@ -26,11 +26,11 @@ windscreen.lines = [
 ]
 
 side.lines = [
-"0,0 100,0 41,69 0,0"
+"0,0 80,0 62,78 0,0"
 ]
 
 rside.lines = [
-"0,0 170,0 200,50 -10,90 0,0"
+"0,0 190,0 220,50 -10,90 0,0"
 ]
 
 
@@ -39,19 +39,21 @@ object = "windscreen"
 comment = "Windscreen"
 translate = { x = 100, y = 200 }
 flip = ""
-# hide = true
-
-[[renders]]
-object = "side"
-comment = "Side"
-translate = { x = 100, y = 100 }
-flip = ""
+scale = 0.96
 
 [[renders]]
 object = "side"
 comment = "Side"
 translate = { x = 100, y = 300 }
+flip = ""
+hide = true
+
+[[renders]]
+object = "side"
+comment = "Side"
+translate = { x = 100, y = 100 }
 flip = "vflip"
+hide = true
 
 [[renders]]
 object = "rside"
