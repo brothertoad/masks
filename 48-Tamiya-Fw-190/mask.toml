@@ -32,6 +32,10 @@ side.lines = [
 rside.lines = [
 "0,0 190,0 220,50 -10,90 0,0"
 ]
+rside.segments = [
+"-10,15 10,-5",
+"80,-10 80,90"
+]
 
 
 [[renders]]
@@ -40,6 +44,7 @@ comment = "Windscreen"
 translate = { x = 100, y = 200 }
 flip = ""
 scale = 0.96
+hide = true
 
 [[renders]]
 object = "side"
