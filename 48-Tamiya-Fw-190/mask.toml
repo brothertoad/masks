@@ -61,7 +61,7 @@ rside4.lines = [
 [[renders]]
 object = "windscreen"
 comment = "Windscreen"
-translate = { x = 100, y = 200 }
+translate = { x = 100, y = 180 }
 flip = ""
 scale = 0.96
 # hide = true
@@ -69,37 +69,50 @@ scale = 0.96
 [[renders]]
 object = "side"
 comment = "Side"
-translate = { x = 100, y = 300 }
+translate = { x = 100, y = 280 }
 flip = ""
 # hide = true
 
 [[renders]]
 object = "side"
 comment = "Side"
-translate = { x = 100, y = 100 }
+translate = { x = 100, y = 80 }
 flip = "vflip"
 # hide = true
 
 [[renders]]
 object = "rside1"
 comment = "Side of blown canopy"
-translate = { x = 300, y = 300 }
+translate = { x = 240, y = 260 }
+flip = "vflip"
+
+[[renders]]
+object = "rside1"
+comment = "Side of blown canopy"
+translate = { x = 240, y = 120 }
+flip = ""
+
+[[renders]]
+object = "rside2"
+comment = "Side of blown canopy"
+translate = { x = 380, y = 260 }
 flip = "vflip"
 
 [[renders]]
 object = "rside2"
 comment = "Side of blown canopy"
-translate = { x = 400, y = 300 }
-flip = "vflip"
+translate = { x = 380, y = 120 }
 
 [[renders]]
 object = "rside3"
 comment = "Side of blown canopy"
 translate = { x = 400, y = 200 }
 flip = "vflip"
+hide = true
 
 [[renders]]
 object = "rside4"
 comment = "Side of blown canopy"
 translate = { x = 300, y = 200 }
 flip = "vflip"
+hide = true
