@@ -49,12 +49,12 @@ rside2.lines = [
 
 # rside3 is upper right
 rside3.lines = [
-"90,0 120,50 50,60 50,0 90,0"
+"100,0 120,50 50,60 50,0 100,0"
 ]
 
 # rside4 is upper left
 rside4.lines = [
-"60,0 0,0 -10,20 -10,40 60,40 60,0"
+"60,0 0,0 -10,20 -10,60 60,60 60,0"
 ]
 
 
@@ -64,21 +64,21 @@ comment = "Windscreen"
 translate = { x = 100, y = 200 }
 flip = ""
 scale = 0.96
-hide = true
+# hide = true
 
 [[renders]]
 object = "side"
 comment = "Side"
 translate = { x = 100, y = 300 }
 flip = ""
-hide = true
+# hide = true
 
 [[renders]]
 object = "side"
 comment = "Side"
 translate = { x = 100, y = 100 }
 flip = "vflip"
-hide = true
+# hide = true
 
 [[renders]]
 object = "rside1"
@@ -89,13 +89,13 @@ flip = "vflip"
 [[renders]]
 object = "rside2"
 comment = "Side of blown canopy"
-translate = { x = 600, y = 300 }
+translate = { x = 400, y = 300 }
 flip = "vflip"
 
 [[renders]]
 object = "rside3"
 comment = "Side of blown canopy"
-translate = { x = 600, y = 200 }
+translate = { x = 400, y = 200 }
 flip = "vflip"
 
 [[renders]]
