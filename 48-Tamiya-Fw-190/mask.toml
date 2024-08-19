@@ -37,6 +37,26 @@ rside.segments = [
 "80,-10 80,100"
 ]
 
+# rside1 is lower left
+rside1.lines = [
+"0,0 80,0 70,80 -10,90 0,0"
+]
+
+# rside2 is lower right
+rside2.lines = [
+"130,0 190,0 220,50 130,50 130,0"
+]
+
+# rside3 is upper right
+rside3.lines = [
+"90,0 120,50 50,60 50,0 90,0"
+]
+
+# rside4 is upper left
+rside4.lines = [
+"60,0 0,0 -10,20 -10,40 60,40 60,0"
+]
+
 
 [[renders]]
 object = "windscreen"
@@ -61,7 +81,25 @@ flip = "vflip"
 hide = true
 
 [[renders]]
-object = "rside"
+object = "rside1"
 comment = "Side of blown canopy"
 translate = { x = 300, y = 300 }
+flip = "vflip"
+
+[[renders]]
+object = "rside2"
+comment = "Side of blown canopy"
+translate = { x = 600, y = 300 }
+flip = "vflip"
+
+[[renders]]
+object = "rside3"
+comment = "Side of blown canopy"
+translate = { x = 600, y = 200 }
+flip = "vflip"
+
+[[renders]]
+object = "rside4"
+comment = "Side of blown canopy"
+translate = { x = 300, y = 200 }
 flip = "vflip"
