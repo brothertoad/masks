@@ -1,0 +1,30 @@
+[global]
+title = "Tamiya Me262"
+# printName = "title"
+physicalWidth = "180mm"
+physicalHeight = "250mm"
+width = 1800
+height = 2500
+scale = 1.0
+strokeWidth = 1
+# strokeColor = "black"
+
+[points]
+# p = { x = , y =  }
+
+[objects]
+# objects can have curves, beziers, qbeziers, lines and segments
+# obj.scale = 1.0
+
+wside.lines = [
+"0,0 70,0 55,60 0,0"
+]
+
+[[renders]]
+object = "wside"
+# comment = ""
+translate = { x = 100, y = 300 }
+# flip = ""
+# scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
