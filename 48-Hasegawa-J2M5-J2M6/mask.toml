@@ -1,0 +1,56 @@
+[global]
+title = "Hasegawa J2M5/6"
+# printName = "title"
+physicalWidth = "180mm"
+physicalHeight = "250mm"
+width = 1800
+height = 2500
+scale = 1.0
+strokeWidth = 1
+# strokeColor = "black"
+
+[points]
+# p = { x = , y =  }
+
+[objects]
+# objects can have curves, beziers, qbeziers, lines and segments
+# obj.scale = 1.0
+
+x3.lines = [
+"0,0 200,10 200,210 0,210 0,0"
+]
+
+# s3 is rear-most side window
+s3.paths = [
+"M 0 0   ",
+"L 200   10",
+"L 200 210",
+"L 0 210",
+"L 0 0",
+]
+
+s4.paths = [
+"M 0 0 ",
+"H 80",
+"V 120",
+"H 0",
+"Z",
+]
+
+[[renders]]
+object = "s3"
+# comment = ""
+translate = { x = 150, y = 300 }
+# flip = ""
+# scale = 1.0
+# hide = false
+# aspect = 1.0 # width to height ratio
+
+[[renders]]
+object = "s4"
+translate = { x = 550, y = 100 }
+
+[[renders]]
+object = "x3"
+translate = { x = 550, y = 400 }
+
