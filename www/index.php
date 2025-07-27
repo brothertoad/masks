@@ -7,12 +7,17 @@
 </head>
 <body>
 	<div class="main-content">
-		<h3>Legacy links</h3>
-		<ul>
-			<li><a href="mask.html">Original masks</a></li>
-			<li><a href="centered-mask.html">Centered mask.svg</a></li>
-			<li><a href="mask.svg">Mask.svg</a></li>
-		</ul>
+		<div>
+			<h3>Path-based masks</h3>
+		</div>
+		<div>
+			<h3>Legacy links</h3>
+			<ul>
+				<li><a href="mask.html">Original masks</a></li>
+				<li><a href="centered-mask.html">Centered mask.svg</a></li>
+				<li><a href="mask.svg">Mask.svg</a></li>
+			</ul>
+		</div>
 	</div>
 </body>
 </html>
