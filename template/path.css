@@ -1,0 +1,7 @@
+
+.path-image {
+    width: WIDTHpx;
+    height: HEIGHTpx;
+    margin: auto;
+    background-image: url('NAME.png');
+}
