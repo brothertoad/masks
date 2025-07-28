@@ -9,6 +9,16 @@
 	<div class="main-content">
 		<div>
 			<h3>Path-based masks</h3>
+			<ul>
+				<?php
+					$paths = scandir("paths");
+					foreach ($paths as $path) {
+						if ($path != "." && $path != "..") {
+							echo("<li>$path</li>");
+						}
+					}
+				?>
+			</ul>
 		</div>
 		<div>
 			<h3>Legacy links</h3>
