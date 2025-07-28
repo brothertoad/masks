@@ -18,6 +18,9 @@
 				<li><a href="mask.svg">Mask.svg</a></li>
 			</ul>
 		</div>
+		<div>
+			<a href="info.php">PHP info</a>
+		</div>
 	</div>
 </body>
 </html>
