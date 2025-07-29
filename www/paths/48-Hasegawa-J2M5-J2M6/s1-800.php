@@ -11,8 +11,8 @@
 	<div class="main-content">
 		<div class="image-div">
 		</div>
-		<div>
-			<a href="./">Project page</a>
+		<div class="centered-parent">
+			<a href="./" class="centered-child">Project page</a>
 		</div>
 	</div>
 </body>

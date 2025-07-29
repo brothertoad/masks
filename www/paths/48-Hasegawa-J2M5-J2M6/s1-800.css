@@ -5,3 +5,12 @@
 	width: 576px;
 	height: 800px;
 }
+
+.centered-parent {
+	display: flex;
+	justify-content: center;
+}
+
+.centered-child {
+	margin-top: 100px;
+}
