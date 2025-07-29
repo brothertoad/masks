@@ -14,7 +14,7 @@
 					$paths = scandir("paths");
 					foreach ($paths as $path) {
 						if ($path != "." && $path != "..") {
-							echo("<li>$path</li>");
+							echo("<li><a href=\"paths/$path/\">$path</a></li>");
 						}
 					}
 				?>
