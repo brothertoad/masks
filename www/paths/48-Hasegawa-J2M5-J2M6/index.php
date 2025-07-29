@@ -14,12 +14,12 @@
 				<?php
 					$images = scandir(".");
 					foreach ($images as $image) {
-						if (endsWith($image, ".png") || endsWith($image, ".jpg")) {
-							echo("<li><a href=\"$image/\">$image</a></li>");
+						// We have PHP 7, so str_ends_with is not available.
+						$ext = substr($image, -4);
+						if ($ext == ".png" || $ext == ".jpg") {
+							$base = substr($image, 0, strlen($image) - 4);
+							echo("<li><a href=\"$base.html\">$base</a></li>");
 						}
-					}
-					function endsWith($string, $endString) {
-					    return substr($string, -strlen($endString) ) === $endString;
 					}
 				?>
 			</ul>
