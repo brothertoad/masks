@@ -18,7 +18,7 @@
 						$ext = substr($image, -4);
 						if ($ext == ".png" || $ext == ".jpg") {
 							$base = substr($image, 0, strlen($image) - 4);
-							echo("<li><a href=\"$base.html\">$base</a></li>");
+							echo("<li><a href=\"$base.php\">$base</a></li>");
 						}
 					}
 				?>
