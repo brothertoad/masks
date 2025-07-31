@@ -9,18 +9,18 @@
 </head>
 <body>
 	<div class="main-content">
-		<div class="image-div cell">
+		<div class="image-div cell" onclick="addCoords(event);">
 			<svg>
 				<path d="M 100 100 L 200 100 L 200 200 L 100 200 Z" />
 			</svg>
 		</div>
 		<div class="column cell">
 			<div class="row">
-				<div class="row-item flex-child-10">
-					<input id="coords" value="" size="24" readonly />
+				<div class="row-item">
+					<input id="coords" value="" size="32" readonly />
 				</div>
 				<div class="row-item">
-					<button type="button">Clear</button>
+					<button type="button" onclick="clearCoords();">Clear</button>
 				</div>
 			</div>
 			<div class="row">
@@ -33,5 +33,14 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		function clearCoords() {
+			document.getElementById("coords").value = "";
+		}
+		function addCoords(event) {
+			var coords = document.getElementById("coords");
+			coords.value = coords.value + " " + event.offsetX + "," + event.offsetY;
+		}
+	</script>
 </body>
 </html>
