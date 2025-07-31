@@ -9,13 +9,17 @@
 </head>
 <body>
 	<div class="main-content">
-		<div class="image-div">
+		<div class="image-div cell">
 			<svg>
 				<path d="M 100 100 L 200 100 L 200 200 L 100 200 Z" />
 			</svg>
 		</div>
-		<div class="centered-parent">
-			<a href="./" class="centered-child">Project page</a>
+		<div class="has-rows cell">
+			<div class="row">
+			</div>
+			<div class="row">
+				<a href="./" class="xxxcentered-child">Project page</a>
+			</div>
 		</div>
 	</div>
 </body>
