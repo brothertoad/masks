@@ -16,8 +16,8 @@
 		</div>
 		<div class="column cell">
 			<div class="row">
-				<div class="row-item">
-					<span>Filled when clicked</span>
+				<div class="row-item flex-child-10">
+					<input id="coords" value="" size="24" readonly />
 				</div>
 				<div class="row-item">
 					<button type="button">Clear</button>

@@ -4,6 +4,6 @@
 	margin: 40px;
 }
 
-button {
+button, input {
 	font-size: 1.2rem;
 }

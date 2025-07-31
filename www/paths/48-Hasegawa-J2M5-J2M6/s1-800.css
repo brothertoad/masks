@@ -32,6 +32,10 @@ path {
 	margin: 20px 50px;
 }
 
+.flex-child-10 {
+	flex-basis: 10rem;
+}
+
 .cell {
 	margin-top: 50px;
 	margin-bottom: 50px;
