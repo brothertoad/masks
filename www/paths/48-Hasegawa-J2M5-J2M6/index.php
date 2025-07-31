@@ -18,7 +18,10 @@
 						$ext = substr($image, -4);
 						if ($ext == ".png" || $ext == ".jpg") {
 							$base = substr($image, 0, strlen($image) - 4);
-							echo("<li><a href=\"$base.php\">$base</a></li>");
+							$target = $base . ".php";
+							if (file_exists($target)) {
+								echo("<li><a href=\"$target\">$base</a></li>");
+							}
 						}
 					}
 				?>
