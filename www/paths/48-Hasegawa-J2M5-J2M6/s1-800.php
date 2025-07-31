@@ -11,7 +11,7 @@
 	<div class="main-content">
 		<div class="image-div">
 			<svg>
-				<path d="M 100 100 L 200 100 L 200 200 L 100 200 Z" fill="none" stroke="red" />
+				<path d="M 100 100 L 200 100 L 200 200 L 100 200 Z" />
 			</svg>
 		</div>
 		<div class="centered-parent">

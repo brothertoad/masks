@@ -11,6 +11,11 @@ svg {
 	height: 800px;
 }
 
+path {
+	fill: none;
+	stroke: red;
+}
+
 .centered-parent {
 	display: flex;
 	justify-content: center;
