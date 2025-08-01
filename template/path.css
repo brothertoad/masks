@@ -1,14 +1,14 @@
 
 .image-div {
 	margin: auto;
-	background-image: url("s1-800.png");
-	width: 576px;
-	height: 800px;
+	background-image: url("IMGFILE");
+	width: IMGWpx;
+	height: IMGHpx;
 }
 
 svg {
-	width: 576px;
-	height: 800px;
+	width: IMGWpx;
+	height: IMGHpx;
 }
 
 path {

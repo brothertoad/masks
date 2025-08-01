@@ -4,12 +4,12 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-	<title>48-Hasegawa-J2M5-J2M6</title>
+	<title>PROJECT</title>
 </head>
 <body>
 	<div class="main-content">
 		<div>
-			<h3>48-Hasegawa-J2M5-J2M6 images</h3>
+			<h3>PROJECT images</h3>
 			<ul>
 				<?php
 					$images = scandir(".");
