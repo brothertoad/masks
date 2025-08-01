@@ -11,7 +11,7 @@ echo PROJECT is $project
 # We have enough info to create the index.php file, if needed.
 indexphp="index.php"
 if [ ! -f $indexphp ]; then
-	echo sed s/PROJECT/$project/g < ../../../template/path-index.php > $indexphp
+	sed s/PROJECT/$project/g < ../../../template/path-index.php > $indexphp
 fi
 
 for imgfile in "$@"; do
