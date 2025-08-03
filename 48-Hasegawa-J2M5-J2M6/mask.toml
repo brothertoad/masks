@@ -16,41 +16,39 @@ strokeWidth = 1
 # objects can have curves, beziers, qbeziers, lines and segments
 # obj.scale = 1.0
 
-x3.lines = [
-"0,0 200,10 200,210 0,210 0,0"
-]
+# w1, w2 => windscreen
+# ws1, ws2 => windscreen side
+# s1, s2, s3 => side
+# t1, t2 => top
+# armor => armor plate
 
-# s3 is rear-most side window
-s3.paths = [
-"M 0 0   ",
-"L 200   10",
-"L 200 210",
-"L 0 210",
-"L 0 0",
-]
+ws1.path = "M 72 276 L 603 61 L 763 212 L 206 718 Z"
+ws2.path = "M 90 631 L 679 82 L 697 90 L 571 739 Z"
 
-s4.paths = [
-"M 0 0 ",
-"H 80",
-"V 120",
-"H 0",
-"Z",
-]
+s1.path = "M 98 95 L 425 108 L 439 714 L 106 686 Z"
+s1.scale = 0.5
+
+s2.path = "M 95 107 L 417 112 L 426 696 L 352 732 L 102 716 Z"
+s2.scale = 0.5
+
+s3.path = "M 93 67 L 681 138 L 708 166 L 693 689 L 672 711 L 108 684 Z"
+s3.scale = 0.5
+
 
 [[renders]]
 object = "s3"
 # comment = ""
-translate = { x = 150, y = 300 }
+translate = { x = 1120, y = 600 }
 # flip = ""
 # scale = 1.0
 # hide = false
 # aspect = 1.0 # width to height ratio
 
 [[renders]]
-object = "s4"
-translate = { x = 550, y = 100 }
+object = "s1"
+translate = { x = 650, y = 600 }
 
 [[renders]]
-object = "x3"
-translate = { x = 550, y = 400 }
+object = "s2"
+translate = { x = 850, y = 600 }
 
