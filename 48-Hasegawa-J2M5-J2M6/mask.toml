@@ -52,50 +52,50 @@ t2.scale = 0.5
 
 [[renders]]
 object = "w1"
-translate = { x = 180, y = 100 }
+translate = { x = 120, y = 100 }
 scale = 0.23
 
 [[renders]]
 object = "w2"
-translate = { x = 580, y = 200 }
+translate = { x = 220, y = 100 }
 scale = 0.35
 
 [[renders]]
 object = "t1"
-translate = { x = 800, y = 200 }
+translate = { x = 300, y = 100 }
 scale = 0.32
 
 [[renders]]
 object = "t2"
-translate = { x = 1040, y = 200 }
+translate = { x = 400, y = 100 }
 scale = 0.32
 
 [[renders]]
 object = "ws1"
-translate = { x = 250, y = 500 }
+translate = { x = 120, y = 200 }
 scale = 0.35
 
 [[renders]]
 object = "ws2"
-translate = { x = 420, y = 600 }
+translate = { x = 200, y = 240 }
 scale = 0.32
 
 [[renders]]
-object = "s3"
-# comment = ""
-translate = { x = 1300, y = 600 }
-# flip = ""
-scale = 0.38
-# hide = false
-# aspect = 1.0 # width to height ratio
-
-[[renders]]
 object = "s1"
-translate = { x = 750, y = 600 }
+translate = { x = 320, y = 250 }
 scale = 0.38
 
 [[renders]]
 object = "s2"
-translate = { x = 990, y = 600 }
+translate = { x = 440, y = 250 }
 scale = 0.38
+
+[[renders]]
+object = "s3"
+# comment = ""
+translate = { x = 580, y = 250 }
+# flip = ""
+scale = 0.38
+# hide = false
+# aspect = 1.0 # width to height ratio
 
