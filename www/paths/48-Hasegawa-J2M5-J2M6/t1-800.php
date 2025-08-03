@@ -11,7 +11,7 @@
 	<div class="main-content">
 		<div class="image-div cell" onclick="addCoords(event);">
 			<svg>
-				<path d="M 100 100 L 200 100 L 200 200 L 100 200 Z" />
+				<path d="M 120 116 L 444 110 Q 420 396, 444 682 L 120 676 Q 100 396, 120 116" />
 			</svg>
 		</div>
 		<div class="column cell">
