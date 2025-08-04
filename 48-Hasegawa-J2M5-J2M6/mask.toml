@@ -113,3 +113,28 @@ object = "armor"
 translate = { x = 610, y = 260 }
 scale = 0.26
 
+[[renders]]
+object = "ws1"
+translate = { x = 120, y = 380 }
+scale = 0.35
+
+[[renders]]
+object = "ws2"
+translate = { x = 200, y = 400 }
+scale = 0.32
+
+[[renders]]
+object = "s1"
+translate = { x = 320, y = 400 }
+scale = 0.38
+
+[[renders]]
+object = "s2"
+translate = { x = 420, y = 400 }
+scale = 0.38
+
+[[renders]]
+object = "s3"
+translate = { x = 540, y = 400 }
+scale = 0.38
+
