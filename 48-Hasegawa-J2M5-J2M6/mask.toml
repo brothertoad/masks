@@ -22,7 +22,7 @@ strokeWidth = 1
 # t1, t2 => top
 # armor => armor plate
 
-w1.path = "M 85 130 L 849 249 Q 910 373, 853 511 L 85 656 Q 230 391, 85 130"
+w1.path = "M 75 130 L 849 249 Q 910 373, 853 511 L 75 656 Q 220 391, 75 130"
 w1.scale = 0.5
 
 w2.path = "M 74 262 L 272 96 Q 313 394, 272 692 L 74 526 Q 96 398, 74 262"
@@ -73,39 +73,41 @@ object = "t2"
 translate = { x = 400, y = 100 }
 scale = 0.32
 
-[[renders]]
+[[xxxrenders]]
 object = "ws1"
 translate = { x = 120, y = 240 }
 scale = 0.35
 flip = "vflip"
 
-[[renders]]
+[[xxxrenders]]
 object = "ws2"
 translate = { x = 200, y = 220 }
 scale = 0.32
 flip = "vflip"
 
-[[need2vfliprenders]]
+[[renders]]
 object = "s1"
-translate = { x = 320, y = 250 }
+translate = { x = 120, y = 250 }
 scale = 0.38
+flip = "vflip"
 
-[[need2vfliprenders]]
+[[renders]]
 object = "s2"
-translate = { x = 440, y = 250 }
+translate = { x = 240, y = 250 }
 scale = 0.38
+flip = "vflip"
 
 [[renders]]
 object = "s3"
 # comment = ""
-translate = { x = 580, y = 250 }
-# flip = ""
+translate = { x = 380, y = 250 }
+flip = "vflip"
 scale = 0.38
 # hide = false
 # aspect = 1.0 # width to height ratio
 
 [[renders]]
 object = "armor"
-translate = { x = 500, y = 100 }
+translate = { x = 300, y = 100 }
 scale = 0.26
 
