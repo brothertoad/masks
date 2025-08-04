@@ -22,7 +22,7 @@ strokeWidth = 1
 # t1, t2 => top
 # armor => armor plate
 
-w1.path = "M 105 130 L 849 249 Q 910 373, 853 511 L 107 656 Q 250 391, 105 130"
+w1.path = "M 85 130 L 849 249 Q 910 373, 853 511 L 85 656 Q 230 391, 85 130"
 w1.scale = 0.5
 
 w2.path = "M 74 262 L 272 96 Q 313 394, 272 692 L 74 526 Q 96 398, 74 262"
@@ -40,7 +40,7 @@ s1.scale = 0.5
 s2.path = "M 95 107 L 417 112 L 426 696 L 352 732 L 102 716 Z"
 s2.scale = 0.5
 
-s3.path = "M 93 67 L 681 138 L 708 166 L 693 689 L 672 711 L 108 684 Z"
+s3.path = "M 88 67 L 681 138 L 708 166 L 693 689 L 672 711 L 108 684 Z"
 s3.scale = 0.5
 
 t1.path = "M 120 116 L 444 110 Q 420 396, 444 682 L 120 676 Q 100 396, 120 116"
@@ -63,12 +63,12 @@ object = "w2"
 translate = { x = 220, y = 100 }
 scale = 0.35
 
-[[renders]]
+[[need2fixrenders]]
 object = "t1"
 translate = { x = 300, y = 100 }
 scale = 0.32
 
-[[renders]]
+[[need2fixrenders]]
 object = "t2"
 translate = { x = 400, y = 100 }
 scale = 0.32
@@ -107,5 +107,5 @@ scale = 0.38
 [[renders]]
 object = "armor"
 translate = { x = 500, y = 100 }
-scale = 0.23
+scale = 0.26
 
