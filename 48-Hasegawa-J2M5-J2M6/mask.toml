@@ -43,17 +43,17 @@ s2.scale = 0.5
 s3.path = "M 88 67 L 681 138 L 708 166 L 693 689 L 672 711 L 108 684 Z"
 s3.scale = 0.5
 
-t1.path = "M 120 116 L 444 110 Q 420 396, 444 682 L 120 676 Q 130 396, 120 116"
+armor.path = "M 148 40 L 486 194 L 488 544 L 148 694 Z"
+armor.scale = 0.5
+
+t1.path = "M 120 116 L 444 110 Q 430 401, 444 692 L 120 686 Q 130 401, 120 116"
 t1.scale = 0.5
 
 t2.path = "M 118 100 L 432 129 L 428 292   Q 362 284,  344 330   L 344 450   Q 362 480, 428 488 L 432 651 L 118 676 Q 104 388, 118 100"
 t2.scale = 0.5
 
-armor.path = "M 148 40 L 486 194 L 488 544 L 148 694 Z"
-armor.scale = 0.5
 
-
-[[renders]]
+[[xxxrenders]]
 object = "w1"
 translate = { x = 120, y = 100 }
 scale = 0.23
@@ -65,12 +65,12 @@ scale = 0.35
 
 [[renders]]
 object = "t1"
-translate = { x = 300, y = 100 }
+translate = { x = 100, y = 100 }
 scale = 0.36
 
-[[renders]]
+[[xxxrenders]]
 object = "t2"
-translate = { x = 400, y = 100 }
+translate = { x = 220, y = 100 }
 scale = 0.36
 
 [[xxxrenders]]
@@ -91,13 +91,13 @@ translate = { x = 120, y = 250 }
 scale = 0.38
 flip = "vflip"
 
-[[enders]]
+[[xxxrenders]]
 object = "s2"
 translate = { x = 240, y = 250 }
 scale = 0.38
 flip = "vflip"
 
-[[renders]]
+[[xxxrenders]]
 object = "s3"
 # comment = ""
 translate = { x = 180, y = 250 }
