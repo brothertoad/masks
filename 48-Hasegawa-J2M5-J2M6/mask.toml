@@ -58,7 +58,7 @@ object = "w1"
 translate = { x = 120, y = 100 }
 scale = 0.23
 
-[[renders]]
+[[xxxrenders]]
 object = "w2"
 translate = { x = 220, y = 100 }
 scale = 0.35
@@ -75,20 +75,22 @@ scale = 0.32
 
 [[renders]]
 object = "ws1"
-translate = { x = 120, y = 200 }
+translate = { x = 120, y = 240 }
 scale = 0.35
+flip = "vflip"
 
 [[renders]]
 object = "ws2"
-translate = { x = 200, y = 240 }
+translate = { x = 200, y = 220 }
 scale = 0.32
+flip = "vflip"
 
-[[renders]]
+[[need2vfliprenders]]
 object = "s1"
 translate = { x = 320, y = 250 }
 scale = 0.38
 
-[[renders]]
+[[need2vfliprenders]]
 object = "s2"
 translate = { x = 440, y = 250 }
 scale = 0.38
