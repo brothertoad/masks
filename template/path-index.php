@@ -27,6 +27,14 @@
 				?>
 			</ul>
 		</div>
+			<?php
+				$svg = "PROJECT.svg";
+				if (file_exists($svg)) {
+					echo("<div>");
+					echo("<img src=\"$svg\" alt=\"full SVG\">");
+					echo ("</div>");
+				}
+			?>
 		<div>
 			<a href="/">Home</a>
 		</div>
