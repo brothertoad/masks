@@ -8,10 +8,14 @@ fi
 project=`basename $PWD`
 # echo PROJECT is $project
 
-# We have enough info to create the index.php file, if needed.
+# We have enough info to create the index.php and main SVG files, if needed.
 indexphp="index.php"
 if [ ! -f $indexphp ]; then
 	sed s/PROJECT/$project/g < ../../../template/path-index.php > $indexphp
+fi
+projectsvg="$project.svg"
+if [ ! -f $projectsvg ]; then
+	sed s/PROJECT/$project/g < ../../../template/path.svg > $projectsvg
 fi
 
 transform() {
