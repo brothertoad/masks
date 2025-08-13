@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="180mm" height="150mm" viewBox="0 0 1800 1500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>48-Monogram-P-40B</title>
+  <style>
+    :root {
+    fill: none;
+    stroke: black;
+    stroke-width: 1;
+    }
+    path {
+    vector-effect: non-scaling-vector;
+    }
+    .dot {
+    fill: black;
+    }
+    .hidden {
+    display: none;
+    }
+  </style>
+  <defs>
+    <g id="one">
+      <!-- paths go here -->
+      <path d="M 100 100 L 200 100 200 200 100 200 Z" />
+    </g>
+    <g id="two">
+      <!-- paths go here -->
+    </g>
+  </defs>
+  <g>
+    <use xlink:href="#one" x="140" y="300" />
+  </g>
+</svg>
