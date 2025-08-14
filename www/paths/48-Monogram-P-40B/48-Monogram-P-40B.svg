@@ -58,11 +58,13 @@
     </g>
   </defs>
   <g>
-    <g transform="scale(0.5)">
-      <use xlink:href="#windscreen" x="140" y="300" />
+    <g transform="scale(0.35)">
+      <use href="#windscreen" x="140" y="700" />
     </g>
   </g>
   <g>
-    <use xlink:href="#top" x="440" y="300" />
+    <g transform="scale(0.35)">
+      <use href="#top" x="880" y="700" />
+    </g>
   </g>
 </svg>
