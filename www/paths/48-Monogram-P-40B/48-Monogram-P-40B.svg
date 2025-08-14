@@ -4,18 +4,18 @@
   <title>48-Monogram-P-40B</title>
   <style>
     :root {
-    fill: none;
-    stroke: black;
-    stroke-width: 1;
+      fill: none;
+      stroke: black;
+      stroke-width: 1;
     }
     path {
-    vector-effect: non-scaling-vector;
+      vector-effect: non-scaling-stroke;
     }
     .dot {
-    fill: black;
+      fill: black;
     }
     .hidden {
-    display: none;
+      display: none;
     }
   </style>
   <defs>
@@ -23,11 +23,46 @@
       <!-- paths go here -->
       <path d="M 100 100 L 200 100 200 200 100 200 Z" />
     </g>
-    <g id="two">
-      <!-- paths go here -->
+    <g id="windscreen">
+      <path d="M 159 126 L 1098 136 L 1178 204 L 1178 590 L 1098 658 L 159 658 Q 80 392, 159 126" />
+    </g>
+    <g id="windscreenside">
+      <path d="M 530 124 L 587 59 Q 828 335, 987 660 L 948 723 L 122 635 L 122 560 Q 500 470, 528 119 Z" />
+    </g>
+    <g id="top1">
+      <path d="M 171 120 L 579 120 L 579 704 L 171 704 L 118 660 Q 170 412, 118 164 Z" />
+    </g>
+    <g id="top2">
+      <path d="M 84 120 L 788 120 L 831 163 L 831 650 L 788 693 L 84 693 Z" />
+    </g>
+    <g id="side1">
+      <path d="M 206 108 L 508 104 L 535 724 L 143 732 L 117 693 L 174 151 Z" />
+    </g>
+    <g id="side2">
+      <path d="M 90 112 L 585 110 L 621 161 L 524 742 L 86 735 Z" />
+    </g>
+    <g id="rear1">
+      <path d="M 130 94 L 680 98 L 734 151 L 750 550 L 687 620 L 103 732 Z" />
+    </g>
+    <g id="rear2">
+      <path d="M 141 116 L 772 181 C 1018 257, 1007 513, 765 582 Q 527 659, 141 707 L 94 661 L 94 162 Z" />
+    </g>
+    <g id="top">
+      <!-- make these separate groups in case they need to be scaled differently -->
+      <g>
+        <use xlink:href="#top1" x="0" y="0" />
+      </g>
+      <g>
+        <use xlink:href="#top2" x="660" y="0" />
+      </g>
     </g>
   </defs>
   <g>
-    <use xlink:href="#one" x="140" y="300" />
+    <g transform="scale(0.5)">
+      <use xlink:href="#windscreen" x="140" y="300" />
+    </g>
+  </g>
+  <g>
+    <use xlink:href="#top" x="440" y="300" />
   </g>
 </svg>
