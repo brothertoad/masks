@@ -33,6 +33,9 @@
 					echo("<div>");
 					echo("<img src=\"$svg\" alt=\"full SVG\">");
 					echo ("</div>");
+					echo("<div>");
+					echo("<a href=\"$svg\">Project SVG</a>");
+					echo ("</div>");
 				}
 			?>
 		<div>

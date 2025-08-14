@@ -58,13 +58,17 @@
     </g>
   </defs>
   <g>
-    <g transform="scale(0.35)">
-      <use href="#windscreen" x="140" y="700" />
+    <g transform="translate(140 700)">
+      <g transform="scale(0.15)">
+        <use href="#windscreen" />
+      </g>
     </g>
   </g>
   <g>
-    <g transform="scale(0.35)">
-      <use href="#top" x="880" y="700" />
+    <g transform="translate(340 700)">
+      <g transform="scale(0.15)">
+        <use href="#top" />
+      </g>
     </g>
   </g>
 </svg>
