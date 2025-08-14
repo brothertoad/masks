@@ -71,4 +71,39 @@
       </g>
     </g>
   </g>
+  <g>
+    <g transform="translate(140 840)">
+      <g transform="scale(0.15)">
+        <use href="#windscreenside" />
+      </g>
+    </g>
+  </g>
+  <g>
+    <g transform="translate(320 840)">
+      <g transform="scale(0.15)">
+        <use href="#side1" />
+      </g>
+    </g>
+  </g>
+  <g>
+    <g transform="translate(440 840)">
+      <g transform="scale(0.15)">
+        <use href="#side2" />
+      </g>
+    </g>
+  </g>
+  <g>
+    <g transform="translate(560 840)">
+      <g transform="scale(0.15)">
+        <use href="#rear1" />
+      </g>
+    </g>
+  </g>
+  <g>
+    <g transform="translate(700 840)">
+      <g transform="scale(0.15)">
+        <use href="#rear2" />
+      </g>
+    </g>
+  </g>
 </svg>
