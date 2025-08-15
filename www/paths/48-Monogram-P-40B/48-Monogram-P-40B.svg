@@ -56,53 +56,42 @@
         <use xlink:href="#top2" x="660" y="0" />
       </g>
     </g>
+    <g id="side">
+      <g>
+        <use xlink:href="#windscreenside" x="0" y="0" />
+      </g>
+      <g>
+        <use xlink:href="#side1" x="1200" y="0" />
+      </g>
+      <g>
+        <use xlink:href="#side2" x="1860" y="0" />
+      </g>
+      <g>
+        <use xlink:href="#rear1" x="2560" y="0" />
+      </g>
+      <g>
+        <use xlink:href="#rear2" x="3500" y="0" />
+      </g>
+    </g>
   </defs>
   <g>
-    <g transform="translate(140 700)">
+    <g transform="translate(140 400)">
       <g transform="scale(0.15)">
         <use href="#windscreen" />
       </g>
     </g>
   </g>
   <g>
-    <g transform="translate(340 700)">
+    <g transform="translate(340 400)">
       <g transform="scale(0.15)">
         <use href="#top" />
       </g>
     </g>
   </g>
   <g>
-    <g transform="translate(140 840)">
+    <g transform="translate(100 540)">
       <g transform="scale(0.15)">
-        <use href="#windscreenside" />
-      </g>
-    </g>
-  </g>
-  <g>
-    <g transform="translate(320 840)">
-      <g transform="scale(0.15)">
-        <use href="#side1" />
-      </g>
-    </g>
-  </g>
-  <g>
-    <g transform="translate(440 840)">
-      <g transform="scale(0.15)">
-        <use href="#side2" />
-      </g>
-    </g>
-  </g>
-  <g>
-    <g transform="translate(560 840)">
-      <g transform="scale(0.15)">
-        <use href="#rear1" />
-      </g>
-    </g>
-  </g>
-  <g>
-    <g transform="translate(700 840)">
-      <g transform="scale(0.15)">
-        <use href="#rear2" />
+        <use href="#side" />
       </g>
     </g>
   </g>
