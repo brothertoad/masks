@@ -49,31 +49,31 @@
     </g>
     <g id="top">
       <!-- make these separate groups in case they need to be scaled differently -->
-      <g>
+      <g transform="scale(0.70)">
         <use xlink:href="#windscreen" x="0" y="0" />
       </g>
-      <g>
+      <g transform="scale(1.0)">
         <use xlink:href="#top1" x="1300" y="0" />
       </g>
-      <g>
+      <g transform="scale(1.0)">
         <use xlink:href="#top2" x="1960" y="0" />
       </g>
     </g>
     <g id="side">
-      <g>
+      <g transform="scale(0.85)">
         <use xlink:href="#windscreenside" x="0" y="0" />
       </g>
-      <g>
-        <use xlink:href="#side1" x="1200" y="0" />
+      <g transform="scale(1.05 1.0)">
+        <use xlink:href="#side1" x="1000" y="0" />
       </g>
-      <g>
-        <use xlink:href="#side2" x="1860" y="0" />
+      <g transform="scale(1.05 1.0)">
+        <use xlink:href="#side2" x="1660" y="0" />
       </g>
-      <g>
+      <g transform="scale(1.0 0.75)">
         <use xlink:href="#rear1" x="2560" y="0" />
       </g>
-      <g>
-        <use xlink:href="#rear2" x="3500" y="0" />
+      <g transform="scale(0.75)">
+        <use xlink:href="#rear2" x="4600" y="0" />
       </g>
     </g>
   </defs>
