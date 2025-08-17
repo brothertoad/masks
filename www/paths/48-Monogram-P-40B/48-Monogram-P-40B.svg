@@ -78,12 +78,12 @@
     </g>
   </defs>
   <g>
-    <g transform="translate(100, 400) scale(0.15)">
+    <g transform="translate(100, 260) scale(0.15)">
       <use href="#top" />
     </g>
   </g>
   <g>
-    <g transform="translate(100, 540) scale(0.15)">
+    <g transform="translate(100, 400) scale(0.15)">
       <use href="#side" />
     </g>
   </g>
