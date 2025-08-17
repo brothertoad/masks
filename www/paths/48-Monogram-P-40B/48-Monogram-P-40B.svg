@@ -60,19 +60,19 @@
       </g>
     </g>
     <g id="side">
-      <g transform="scale(0.85) translate(0, 0)">
+      <g transform="translate(0, 0) scale(0.85)">
         <use xlink:href="#windscreenside" />
       </g>
-      <g transform="scale(1.05 1.0) translate(1000, 0)">
+      <g transform="translate(1000, 0) scale(1.05 1.0)">
         <use xlink:href="#side1" />
       </g>
-      <g transform="scale(1.05 1.0) translate(1660, 0)">
+      <g transform="translate(1660, 0) scale(1.05 1.0) ">
         <use xlink:href="#side2" />
       </g>
-      <g transform="scale(1.0 0.75) translate(2560, 0)">
+      <g transform="translate(2560, 0) scale(1.0 0.75)">
         <use xlink:href="#rear1" />
       </g>
-      <g transform="scale(0.75) translate(4600, 0)">
+      <g transform="translate(3500, 0) scale(0.75)">
         <use xlink:href="#rear2" />
       </g>
     </g>
