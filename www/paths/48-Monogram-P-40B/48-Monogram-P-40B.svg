@@ -49,13 +49,13 @@
     </g>
     <g id="top">
       <!-- make these separate groups in case they need to be scaled differently -->
-      <g transform="scale(0.70) translate(0, 0)">
+      <g transform="translate(0, 80) scale(0.70)">
         <use xlink:href="#windscreen" />
       </g>
-      <g transform="scale(1.0) translate(1300, 0)">
+      <g transform="translate(1240, 0) scale(1.0)">
         <use xlink:href="#top1" />
       </g>
-      <g transform="scale(1.0) translate(1960, 0)">
+      <g transform="translate(1960, 0) scale(1.0)">
         <use xlink:href="#top2" />
       </g>
     </g>
