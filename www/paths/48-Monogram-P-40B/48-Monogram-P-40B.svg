@@ -49,46 +49,42 @@
     </g>
     <g id="top">
       <!-- make these separate groups in case they need to be scaled differently -->
-      <g transform="scale(0.70)">
-        <use xlink:href="#windscreen" x="0" y="0" />
+      <g transform="scale(0.70) translate(0, 0)">
+        <use xlink:href="#windscreen" />
       </g>
-      <g transform="scale(1.0)">
-        <use xlink:href="#top1" x="1300" y="0" />
+      <g transform="scale(1.0) translate(1300, 0)">
+        <use xlink:href="#top1" />
       </g>
-      <g transform="scale(1.0)">
-        <use xlink:href="#top2" x="1960" y="0" />
+      <g transform="scale(1.0) translate(1960, 0)">
+        <use xlink:href="#top2" />
       </g>
     </g>
     <g id="side">
-      <g transform="scale(0.85)">
-        <use xlink:href="#windscreenside" x="0" y="0" />
+      <g transform="scale(0.85) translate(0, 0)">
+        <use xlink:href="#windscreenside" />
       </g>
-      <g transform="scale(1.05 1.0)">
-        <use xlink:href="#side1" x="1000" y="0" />
+      <g transform="scale(1.05 1.0) translate(1000, 0)">
+        <use xlink:href="#side1" />
       </g>
-      <g transform="scale(1.05 1.0)">
-        <use xlink:href="#side2" x="1660" y="0" />
+      <g transform="scale(1.05 1.0) translate(1660, 0)">
+        <use xlink:href="#side2" />
       </g>
-      <g transform="scale(1.0 0.75)">
-        <use xlink:href="#rear1" x="2560" y="0" />
+      <g transform="scale(1.0 0.75) translate(2560, 0)">
+        <use xlink:href="#rear1" />
       </g>
-      <g transform="scale(0.75)">
-        <use xlink:href="#rear2" x="4600" y="0" />
+      <g transform="scale(0.75) translate(4600, 0)">
+        <use xlink:href="#rear2" />
       </g>
     </g>
   </defs>
   <g>
-    <g transform="translate(100 400)">
-      <g transform="scale(0.15)">
-        <use href="#top" />
-      </g>
+    <g transform="translate(100, 400) scale(0.15)">
+      <use href="#top" />
     </g>
   </g>
   <g>
-    <g transform="translate(100 540)">
-      <g transform="scale(0.15)">
-        <use href="#side" />
-      </g>
+    <g transform="translate(100, 540) scale(0.15)">
+      <use href="#side" />
     </g>
   </g>
   <rect x="20" y="20" width="1760" height="1460" class="hidden" />
