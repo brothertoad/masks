@@ -49,7 +49,6 @@
     </g>
     <g id="top">
       <!-- make these separate groups in case they need to be scaled differently -->
-<!-- OK
       <g transform="translate(0, 80) scale(0.62)">
         <use xlink:href="#windscreen" />
       </g>
@@ -59,10 +58,8 @@
       <g transform="translate(1960, 0) scale(0.8)">
         <use xlink:href="#top2" />
       </g>
--->
     </g>
     <g id="side">
-<!-- OK
       <g transform="translate(0, 0) scale(0.85)">
         <use xlink:href="#windscreenside" />
       </g>
@@ -72,15 +69,12 @@
       <g transform="translate(1660, 0) scale(1.1, 1.05)">
         <use xlink:href="#side2" />
       </g>
--->
       <g transform="translate(2560, 0) scale(0.95, 0.84)">
         <use xlink:href="#rear1" />
       </g>
-<!-- OK
       <g transform="translate(3500, 0) scale(0.75)">
         <use xlink:href="#rear2" />
       </g>
--->
     </g>
   </defs>
   <g>
@@ -89,7 +83,10 @@
     </g>
   </g>
   <g>
-    <g transform="translate(100, 400) scale(0.15)">
+    <g transform="translate(100, 360) scale(0.15)">
+      <use href="#side" />
+    </g>
+    <g transform="translate(100, 240) scale(0.15, -0.15)">
       <use href="#side" />
     </g>
   </g>
