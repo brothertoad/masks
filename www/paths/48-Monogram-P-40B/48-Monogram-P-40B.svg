@@ -42,7 +42,7 @@
       <path d="M 90 112 L 585 110 L 621 161 L 524 742 L 86 735 Z" />
     </g>
     <g id="rear1">
-      <path d="M 130 94 L 680 98 L 734 151 L 750 550 L 687 620 L 103 732 Z" />
+      <path d="M 130 94 L 680 98 L 734 151 L 750 620 L 103 752 Z" />
     </g>
     <g id="rear2">
       <path d="M 141 116 L 772 181 C 1018 257, 1007 513, 765 582 Q 527 659, 141 707 L 94 661 L 94 162 Z" />
@@ -56,10 +56,10 @@
       <g transform="translate(1240, 0) scale(0.8, 0.9) scale(0.95)">
         <use xlink:href="#top1" />
       </g>
--->
       <g transform="translate(1960, 0) scale(0.8)">
         <use xlink:href="#top2" />
       </g>
+-->
     </g>
     <g id="side">
 <!-- OK
@@ -69,10 +69,10 @@
       <g transform="translate(1000, 0) scale(1.0, 1.05)">
         <use xlink:href="#side1" />
       </g>
--->
       <g transform="translate(1660, 0) scale(1.1, 1.05)">
         <use xlink:href="#side2" />
       </g>
+-->
       <g transform="translate(2560, 0) scale(0.95, 0.84)">
         <use xlink:href="#rear1" />
       </g>
