@@ -33,7 +33,7 @@
       <path d="M 171 120 L 579 120 L 579 704 L 171 704 L 118 660 Q 170 412, 118 164 Z" />
     </g>
     <g id="top2">
-      <path d="M 84 120 L 788 120 L 831 163 L 831 650 L 788 693 L 84 693 Z" />
+      <path d="M 84 120 L 788 110 L 831 163 L 831 650 L 788 693 L 84 703 Z" />
     </g>
     <g id="side1">
       <path d="M 206 108 L 508 104 L 535 724 L 143 732 L 117 693 L 168 151 Z" />
@@ -49,32 +49,38 @@
     </g>
     <g id="top">
       <!-- make these separate groups in case they need to be scaled differently -->
+<!-- OK
       <g transform="translate(0, 80) scale(0.62)">
         <use xlink:href="#windscreen" />
       </g>
       <g transform="translate(1240, 0) scale(0.8, 0.9) scale(0.95)">
         <use xlink:href="#top1" />
       </g>
+-->
       <g transform="translate(1960, 0) scale(0.8)">
         <use xlink:href="#top2" />
       </g>
     </g>
     <g id="side">
+<!-- OK
       <g transform="translate(0, 0) scale(0.85)">
         <use xlink:href="#windscreenside" />
       </g>
       <g transform="translate(1000, 0) scale(1.0, 1.05)">
         <use xlink:href="#side1" />
       </g>
-      <g transform="translate(1660, 0) scale(1.05, 1.05) ">
+-->
+      <g transform="translate(1660, 0) scale(1.1, 1.05)">
         <use xlink:href="#side2" />
       </g>
       <g transform="translate(2560, 0) scale(0.95, 0.84)">
         <use xlink:href="#rear1" />
       </g>
+<!-- OK
       <g transform="translate(3500, 0) scale(0.75)">
         <use xlink:href="#rear2" />
       </g>
+-->
     </g>
   </defs>
   <g>
