@@ -23,12 +23,29 @@
       <!-- paths go here -->
       <path d="M 100 100 L 200 100 200 200 100 200 Z" />
     </g>
-    <g id="two">
-      <!-- paths go here -->
+    <g id="w" transform="scale(0.135)">
+      <title>Windscreen</title>
+      <path d="M 650 0 L 0 0 L 0 350 L 650 350 Z" />
+    </g>
+    <g id="ws" transform="scale(0.135)">
+      <title>Windscreen side</title>
+      <path d="M 600 0 L 0 0 L 419 621 Z" />
+    </g>
+    <g id="blownside" transform="scale(0.135)">
+      <path d="M 59 108   C 589 85, 993 140, 1603 411   L 1382 741 L 145 724 Q 104 716, 98 689   Q 67 409, 59 108" />
     </g>
   </defs>
-  <g>
-    <use xlink:href="#one" x="140" y="300" />
+  <g transform="translate(140,150) scale(1.0, -1.0)">
+    <use  href="#ws" />
+  </g>
+  <g transform="translate(140,200) scale(1.0)">
+    <use  href="#w" />
+  </g>
+  <g transform="translate(140,300) scale(1.0)">
+    <use  href="#ws" />
+  </g>
+  <g transform="translate(300,300) scale(1.0)">
+    <use href="#blownside" />
   </g>
   <rect x="20" y="20" width="1760" height="1460" />
 </svg>
