@@ -28,7 +28,7 @@
     </g>
   </defs>
   <g>
-    <use xlink:href="#one" x="140" y="300" />
+    <use href="#one" x="140" y="300" />
   </g>
   <rect x="20" y="20" width="1760" height="1460" />
 </svg>
