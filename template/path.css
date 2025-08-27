@@ -11,7 +11,7 @@ svg {
 	height: IMGHpx;
 }
 
-path {
+path, line {
 	fill: none;
 	stroke: red;
 }
