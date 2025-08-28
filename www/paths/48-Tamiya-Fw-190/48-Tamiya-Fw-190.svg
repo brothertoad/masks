@@ -62,10 +62,22 @@
   <g transform="translate(300,220) scale(0.94, 1.0)">
     <use href="#blowntop" />
   </g>
+  <g transform="translate(300,130) scale(1.08, -1.08)">
+    <use href="#blownside" />
+  </g>
+  <g transform="translate(300,230) scale(0.94, -1.0)">
+    <use href="#blowntop" />
+  </g>
   <g transform="translate(640,330) scale(0.94, 1.0)">
     <use href="#flatside" />
   </g>
   <g transform="translate(640,200) scale(0.94, 1.0)">
+    <use href="#flattop" />
+  </g>
+  <g transform="translate(640,160) scale(0.94, -1.0)">
+    <use href="#flatside" />
+  </g>
+  <g transform="translate(640,280) scale(0.94, -1.0)">
     <use href="#flattop" />
   </g>
   <g transform="translate(780,180) scale(0.94, 1.0)">
