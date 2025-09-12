@@ -56,7 +56,6 @@
   <g transform="translate(140,300) scale(1.0)">
     <use  href="#ws" />
   </g>
-  <!-- uncomment this block for a blown canopy -->
   <g transform="translate(300,330) scale(1.08)">
     <use href="#blownside" />
   </g>
@@ -69,8 +68,6 @@
   <g transform="translate(300,230) scale(0.94, -1.0)">
     <use href="#blowntop" />
   </g>
-  <!-- uncomment this block for a flat canopy -->
-<!--
   <g transform="translate(640,330) scale(0.94, 1.0)">
     <use href="#flatside" />
   </g>
@@ -86,6 +83,5 @@
   <g transform="translate(780,180) scale(0.94, 1.0)">
     <use href="#flatrear" />
   </g>
--->
   <!-- <rect x="20" y="20" width="1760" height="1460" /> -->
 </svg>
