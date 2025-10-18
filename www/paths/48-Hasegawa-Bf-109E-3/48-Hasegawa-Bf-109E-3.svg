@@ -19,16 +19,55 @@
     }
   </style>
   <defs>
-    <g id="one">
-      <!-- paths go here -->
-      <path d="M 100 100 L 200 100 200 200 100 200 Z" />
+    <g id="side">
+      <!-- side window -->
+      <path d="M 80 50 L 1580 50 L 1580 760 L 80 760 Z" />
     </g>
-    <g id="two">
-      <!-- paths go here -->
+    <g id="top">
+      <!-- top window -->
+      <path d="M 80 50 L 1580 50 L 1580 900 L 80 900 Z" />
+    </g>
+    <g id="rear" transform="scale(0.4)">
+      <!-- rear (lower part only) -->
+      <path d="M 30 437 L 30 770 L 230 550 Q 270 518, 275 437 Z" />
+    </g>
+    <g id="wside1" transform="scale(0.2)">
+      <!-- windscreen side, lower part (against the front edge) -->
+      <path d="M 104 151 L 854 672 L 102 672 Z" />
+    </g>
+    <g id="wside2" transform="scale(0.3)">
+      <!-- windscreen side, upper part (closest to side) -->
+      <path d="M 66 472 L 272 99 L 578 210 L 583 752 Z" />
+    </g>
+    <g id="ws" transform="scale(0.3)">
+      <!-- windscreen -->
+      <path d="M 60 124 L 420 166 L 420 652 L 60 694 Q 170 409, 60 124" />
+    </g>
+    <g id="wtop" transform="scale(0.3)">
+      <!-- windscreen top -->
+      <path d="M 37 183 L 59 183 L 262 45 L 286 93 L 286 688 L 262 736 L 59 598 L 37 598 Z" />
     </g>
   </defs>
-  <g>
-    <use href="#one" x="140" y="300" />
+  <g transform="translate(100 300)" >
+    <use href="#ws" />
+  </g>
+  <g transform="translate(300 300)" >
+    <use href="#wtop" />
+  </g>
+  <g transform="translate(300 500)" >
+    <use href="#wside1" />
+  </g>
+  <g transform="translate(500 400)" >
+    <use href="#wside2" />
+  </g>
+  <g transform="translate(740 200) scale(0.2)" >
+    <use href="#top" />
+  </g>
+  <g transform="translate(740 500) scale(0.2)" >
+    <use href="#side" />
+  </g>
+  <g transform="translate(1100 500)" >
+    <use href="#rear" />
   </g>
   <rect x="20" y="20" width="1760" height="1460" />
 </svg>
