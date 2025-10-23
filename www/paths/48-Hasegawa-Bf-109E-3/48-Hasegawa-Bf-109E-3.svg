@@ -56,21 +56,19 @@
   <g transform="translate(660 160)" >
     <use href="#wtop" />
   </g>
--->
   <g transform="translate(640 200)" >
     <use href="#wside1" />
   </g>
   <g transform="translate(640 300)" >
     <use href="#wside2" />
   </g>
-<!--
   <g transform="translate(740 150)" >
     <use href="#top" />
   </g>
--->
   <g transform="translate(740 300)" >
     <use href="#side" />
   </g>
+-->
   <g transform="translate(740 60)" >
     <use href="#rear" />
   </g>
