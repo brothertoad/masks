@@ -21,20 +21,20 @@
   <defs>
     <g id="side" transform="scale(0.08)">
       <!-- side window -->
-      <path d="M 80 50 L 1730 50 L 1730 720 L 80 720 Z" />
+      <path d="M 80 50 L 1700 50 L 1700 720 L 80 720 Z" />
     </g>
     <g id="top" transform="scale(0.08)">
       <!-- top window -->
-      <path d="M 80 50 L 1730 50 L 1730 1750 L 80 1750 Z" />
+      <path d="M 80 50 L 1700 50 L 1700 1750 L 80 1750 Z" />
       <line x1="20" y1="900" x2="1790" y2="900" />
     </g>
     <g id="rear" transform="scale(0.24) scale(1.0, 1.1)">
       <!-- rear (lower part only) -->
-      <path d="M 30 437 L 30 770 L 230 550 Q 270 518, 275 437 Z" />
+      <path d="M 30 437 L 30 770 L 240 550 Q 280 518, 285 437 Z" />
     </g>
     <g id="wside1" transform="scale(0.06)">
       <!-- windscreen side, lower part (against the front edge) -->
-      <path d="M 104 151 L 990 622 L 104 622 Z" />
+      <path d="M 104 151 L 990 604 L 104 604 Z" />
     </g>
     <g id="wside2" transform="scale(0.1)">
       <!-- windscreen side, upper part (closest to side) -->
@@ -49,15 +49,15 @@
       <path d="M 37 183 L 59 183 L 262 45 L 286 93 L 286 688 L 262 736 L 59 598 L 37 598 Z" />
     </g>
   </defs>
+<!--
   <g transform="translate(570 180)" >
     <use href="#ws" />
   </g>
-<!--
   <g transform="translate(660 160)" >
     <use href="#wtop" />
   </g>
 -->
-  <g transform="translate(560 300)" >
+  <g transform="translate(640 200)" >
     <use href="#wside1" />
   </g>
   <g transform="translate(640 300)" >
@@ -71,7 +71,7 @@
   <g transform="translate(740 300)" >
     <use href="#side" />
   </g>
-  <g transform="translate(900 140)" >
+  <g transform="translate(740 60)" >
     <use href="#rear" />
   </g>
 </svg>
