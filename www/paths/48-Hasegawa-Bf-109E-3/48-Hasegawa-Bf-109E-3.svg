@@ -8,7 +8,7 @@
       stroke: black;
       stroke-width: 1;
     }
-    path {
+    path, line {
       vector-effect: non-scaling-stroke;
     }
     .dot {
@@ -21,25 +21,26 @@
   <defs>
     <g id="side" transform="scale(0.08)">
       <!-- side window -->
-      <path d="M 80 50 L 1750 50 L 1750 720 L 80 720 Z" />
+      <path d="M 80 50 L 1730 50 L 1730 720 L 80 720 Z" />
     </g>
     <g id="top" transform="scale(0.08)">
       <!-- top window -->
-      <path d="M 80 50 L 1750 50 L 1750 1450 L 80 1450 Z" />
+      <path d="M 80 50 L 1730 50 L 1730 1750 L 80 1750 Z" />
+      <line x1="20" y1="900" x2="1790" y2="900" />
     </g>
-    <g id="rear" transform="scale(0.24) scale(1.0, 1.2)">
+    <g id="rear" transform="scale(0.24) scale(1.0, 1.1)">
       <!-- rear (lower part only) -->
       <path d="M 30 437 L 30 770 L 230 550 Q 270 518, 275 437 Z" />
     </g>
     <g id="wside1" transform="scale(0.06)">
       <!-- windscreen side, lower part (against the front edge) -->
-      <path d="M 104 151 L 960 622 L 104 622 Z" />
+      <path d="M 104 151 L 990 622 L 104 622 Z" />
     </g>
     <g id="wside2" transform="scale(0.1)">
       <!-- windscreen side, upper part (closest to side) -->
-      <path d="M 66 510 L 272 99 L 618 220 L 634 772 Z" />
+      <path d="M 66 510 L 272 99 L 638 220 L 654 772 Z" />
     </g>
-    <g id="ws" transform="scale(0.112, 0.1) scale(0.97, 1.08)">
+    <g id="ws" transform="scale(0.112, 0.1) scale(0.97, 1.12)">
       <!-- windscreen -->
       <path d="M 60 124 L 420 166 L 420 652 L 60 694 Q 170 409, 60 124" />
     </g>
@@ -62,9 +63,11 @@
   <g transform="translate(640 300)" >
     <use href="#wside2" />
   </g>
+<!--
   <g transform="translate(740 150)" >
     <use href="#top" />
   </g>
+-->
   <g transform="translate(740 300)" >
     <use href="#side" />
   </g>
