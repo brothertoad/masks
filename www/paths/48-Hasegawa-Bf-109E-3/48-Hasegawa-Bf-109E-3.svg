@@ -30,7 +30,7 @@
     </g>
     <g id="rear" transform="scale(0.24) scale(1.0, 1.1)">
       <!-- rear (lower part only) -->
-      <path d="M 30 437 L 30 770 L 240 550 Q 280 518, 285 437 Z" />
+      <path d="M 0 437 L 0 770 L 210 550 Q 250 518, 255 437 Z" />
     </g>
     <g id="wside1" transform="scale(0.06)">
       <!-- windscreen side, lower part (against the front edge) -->
