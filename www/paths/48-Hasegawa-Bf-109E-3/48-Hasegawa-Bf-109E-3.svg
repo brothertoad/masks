@@ -50,16 +50,16 @@
       <line x1="0" y1="470" x2="400" y2="470" />
     </g>
   </defs>
-  <g transform="translate(570 180)" >
+  <g transform="translate(570 210)" >
     <use href="#ws" />
   </g>
   <g transform="translate(660 160)" >
     <use href="#wtop" />
   </g>
-  <g transform="translate(640 200)" >
+  <g transform="translate(600 400)" >
     <use href="#wside1" />
   </g>
-  <g transform="translate(640 300)" >
+  <g transform="translate(640 340)" >
     <use href="#wside2" />
   </g>
   <g transform="translate(740 80)" >
@@ -70,6 +70,9 @@
   </g>
   <g transform="translate(740 360)" >
     <use href="#side" />
+  </g>
+  <g transform="scale(1.0, -1.0) translate(920 -300)" >
+    <use href="#rear" />
   </g>
   <g transform="translate(920 200)" >
     <use href="#rear" />
