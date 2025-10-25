@@ -47,7 +47,7 @@
     <g id="wtop" transform="scale(0.15) scale(0.9, 1.05) scale(1.0, 1.4)">
       <!-- windscreen top -->
       <path d="M 37 183 L 59 183 L 262 45 L 286 93 L 286 688 L 262 736 L 59 598 L 37 598 Z" />
-      <line x1="0" y1="470" x2="400" y2="470" />
+      <line x1="0" y1="420" x2="400" y2="420" />
     </g>
   </defs>
   <g transform="translate(570 210)" >
@@ -56,8 +56,18 @@
   <g transform="translate(660 160)" >
     <use href="#wtop" />
   </g>
+  <g transform="translate(600 100)" >
+    <g transform="scale(1.0, -1.0)">
+      <use href="#wside1" />
+    </g>
+  </g>
   <g transform="translate(600 400)" >
     <use href="#wside1" />
+  </g>
+  <g transform="translate(640 160)" >
+    <g transform="scale(1.0, -1.0)">
+      <use href="#wside2" />
+    </g>
   </g>
   <g transform="translate(640 340)" >
     <use href="#wside2" />
