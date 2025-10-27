@@ -26,7 +26,7 @@
       <path d="M 0 0 L 85 0 L 85 65 L 0 65 Z" />
     </g>
     <g id="windscreen">
-      <path d="M 0 0 L 95 0 L 95 40 L 0 40 Z" />
+      <path d="M 0 0 L 40 0 L 40 95 L 0 95 Z" />
     </g>
     <g id="wside">
       <path d="M 0 0 L 70 0  L 88 13   L 50 52 Z" />
@@ -44,10 +44,10 @@
   <g transform="translate(540 400)">
     <use href="#side" />
   </g>
-  <g transform="translate(340 300)">
+  <g transform="translate(360 280)">
     <use href="#windscreen" />
   </g>
-  <g transform="translate(340 400)">
+  <g transform="translate(340 420)">
     <use href="#wside" />
   </g>
   <rect x="20" y="20" width="1760" height="1460" />
