@@ -38,9 +38,16 @@
       <!-- forward corner of rear window -->
       <path d="M 110 600 L 136 718 Q 140 738, 164 728 L 324 660 Z" />
     </g>
+    <g id="rear2" transform="scale(0.15)">
+      <!-- back corner of rear window -->
+      <path d="M 40 98 L 40 662 L 296 474  Q 360 385, 296 296  Z" />
+    </g>
   </defs>
   <g transform="translate(700 240)">
     <use href="#rear1" />
+  </g>
+  <g transform="translate(740 260)">
+    <use href="#rear2" />
   </g>
   <g transform="translate(540 300)">
     <use href="#top" />
