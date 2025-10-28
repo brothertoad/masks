@@ -20,23 +20,27 @@
   </style>
   <defs>
     <g id="top">
-      <path d="M 0 0 L 85 0 L 85 45 L 0 45 Z" />
+      <path d="M 0 0 L 88 0 L 88 42 L 0 42 Z" />
     </g>
     <g id="side">
-      <path d="M 0 0 L 85 0 L 85 65 L 0 65 Z" />
+      <path d="M 0 0 L 85 8 L 85 65 L 0 65 Z" />
     </g>
     <g id="windscreen">
-      <path d="M 0 0 L 40 0 L 40 95 L 0 95 Z" />
+      <path d="M 4 0 L 36 0 L 42 95 L 2 95 Z" />
     </g>
     <g id="wside">
-      <path d="M 0 0 L 70 0  L 88 13   L 50 52 Z" />
+      <path d="M 0 0 L 70 0  L 82 13   L 54 58 Z" />
     </g>
     <g id="rear">
       <path d="M 15 0 L 0 60 L 0 110 L 15 170 L 140 100 L 140 70 Z" />
     </g>
+    <g id="rear1" transform="scale(0.3)">
+      <!-- forward corner of rear window -->
+      <path d="M 110 600 L 136 718 Q 140 738, 164 728 L 324 660 Z" />
+    </g>
   </defs>
   <g transform="translate(700 240)">
-    <use href="#rear" />
+    <use href="#rear1" />
   </g>
   <g transform="translate(540 300)">
     <use href="#top" />

@@ -1,17 +1,17 @@
 <html>
 <head>
 	<link rel="stylesheet" href="/site.css">
-	<link rel="stylesheet" href="rear-800.css">
+	<link rel="stylesheet" href="EZMask-207-rear2-800.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-	<title>rear-800</title>
+	<title>EZMask-207-rear2-800</title>
 </head>
 <body>
 	<div class="main-content">
 		<div class="image-div cell" onclick="addCoords(event);">
 			<svg>
-				<path d="M 110 600 L 136 718 Q 140 738, 164 728 L 324 660 Z" />
+				<path d="M 100 100 L 200 100 L 200 200 L 100 200 Z" />
 			</svg>
 		</div>
 		<div class="column cell">
