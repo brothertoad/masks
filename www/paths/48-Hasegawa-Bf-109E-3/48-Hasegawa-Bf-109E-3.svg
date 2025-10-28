@@ -30,6 +30,7 @@
     </g>
     <g id="rear" transform="scale(0.24) scale(1.0, 1.1)">
       <!-- rear (lower part only) -->
+      <!-- TASK: add top of rear window -->
       <path d="M 20 417 L 0 770 L 250 530 Q 290 498, 320 417 Z" />
     </g>
     <g id="wside1" transform="scale(0.06)">
@@ -46,6 +47,7 @@
     </g>
     <g id="wtop" transform="scale(0.15) scale(0.9, 1.05) scale(1.0, 1.4)">
       <!-- windscreen top -->
+      <!-- TASK: this needs work - angles are wrong -->
       <path d="M 37 183 L 59 183 L 262 45 L 286 93 L 286 688 L 262 736 L 59 598 L 37 598 Z" />
       <line x1="0" y1="420" x2="400" y2="420" />
     </g>
