@@ -19,20 +19,17 @@
     }
   </style>
   <defs>
-    <g id="top">
+    <g id="top" transform="scale(0.98)" >
       <path d="M 0 0 L 88 0 L 88 42 L 0 42 Z" />
     </g>
     <g id="side">
-      <path d="M 0 0 L 85 8 L 85 65 L 0 65 Z" />
+      <path d="M 0 0 L 85 5 L 85 65 L 0 65 Z" />
     </g>
     <g id="windscreen">
       <path d="M 4 0 L 36 0 L 42 95 L 2 95 Z" />
     </g>
     <g id="wside">
-      <path d="M 0 0 L 70 0  L 82 13   L 54 58 Z" />
-    </g>
-    <g id="rear">
-      <path d="M 15 0 L 0 60 L 0 110 L 15 170 L 140 100 L 140 70 Z" />
+      <path d="M 0 0 L 70 0  L 82 13   L 50 62 Z" />
     </g>
     <g id="rear1" transform="scale(0.3)">
       <!-- forward corner of rear window -->
@@ -43,12 +40,14 @@
       <path d="M 40 98 L 40 662 L 296 474  Q 360 385, 296 296  Z" />
     </g>
   </defs>
+<!--
   <g transform="translate(700 240)">
     <use href="#rear1" />
   </g>
   <g transform="translate(740 260)">
     <use href="#rear2" />
   </g>
+-->
   <g transform="translate(540 300)">
     <use href="#top" />
   </g>
