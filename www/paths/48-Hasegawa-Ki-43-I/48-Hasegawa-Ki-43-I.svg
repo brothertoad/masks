@@ -24,13 +24,14 @@
     </g>
     <g id="side">
       <!-- <path d="M 0 0 L 85 5 L 85 65 L 0 65 Z" /> -->
-      <path d="M 0 0 Q 55 -2, 85 5 L 85 65 L 0 65 Z" />
+      <path d="M 0 0 Q 55 -2, 85 5 L 85 68 L 0 65 Z" />
     </g>
     <g id="windscreen" transform="scale(0.96)" >
-      <path d="M 4 0 L 36 0 Q 30 25, 42 95 L 2 95 Z" />
+      <path d="M 4 0 L 38 0 Q 30 25, 40 95 L 2 95 Z" />
     </g>
     <g id="wside">
-      <path d="M 0 0 L 70 0  L 82 13   L 44 64 Z" />
+      <!-- <path d="M 0 0 L 70 0  L 82 13   L 44 64 Z" /> -->
+      <path d="M 0 0 L 70 0  L 82 13   L 44 64   Q 28 32, 0 0" />
     </g>
     <g id="rear1" transform="scale(0.3)">
       <!-- forward corner of rear window -->
