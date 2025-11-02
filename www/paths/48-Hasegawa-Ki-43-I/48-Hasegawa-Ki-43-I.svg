@@ -30,7 +30,7 @@
       <line x1="87" y1="64" x2="81" y2="70" />
       <line x1="4" y1="67" x2="-2" y2="61" />
     </g>
-    <g id="windscreen" transform="scale(0.96)" >
+    <g id="windscreen" transform="scale(1.0, 1.02)" >
       <path d="M 4 0 L 38 0 Q 30 25, 42 95 Q 20 80, 0 95   Q 12 25, 4 0" />
     </g>
     <g id="wside">
@@ -52,18 +52,13 @@
   <g transform="translate(740 260)">
     <use href="#rear2" />
   </g>
--->
   <g transform="translate(540 300)">
     <use href="#top" />
   </g>
-  <!--
-  <g transform="scale(5.0) translate(100 110)">
-    <use href="#side" />
-  </g>
--->
   <g transform="translate(540 400)">
     <use href="#side" />
   </g>
+-->
   <g transform="translate(360 280)">
     <use href="#windscreen" />
   </g>
