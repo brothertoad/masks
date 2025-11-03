@@ -30,7 +30,7 @@
       <line x1="87" y1="64" x2="81" y2="70" />
       <line x1="4" y1="67" x2="-2" y2="61" />
     </g>
-    <g id="windscreen" transform="scale(1.0, 1.02)" >
+    <g id="windscreen" transform="scale(1.0, 1.02) rotate(90 50 50)" >
       <path d="M 4 0 L 38 0 Q 30 25, 42 95 Q 20 80, 0 95   Q 12 25, 4 0" />
     </g>
     <g id="wside">
@@ -45,26 +45,31 @@
       <path d="M 40 98 L 40 662 L 296 474  Q 360 385, 296 296  Z" />
     </g>
   </defs>
-<!--
-  <g transform="translate(700 240)">
+  <g transform="scale(1.0,-1.0) translate(640 -420)">
+    <use href="#rear1" />
+  </g>
+  <g transform="translate(640 200)">
     <use href="#rear1" />
   </g>
   <g transform="translate(740 260)">
     <use href="#rear2" />
   </g>
-  <g transform="translate(540 300)">
+  <g transform="translate(520 280)">
     <use href="#top" />
   </g>
-  <g transform="translate(540 400)">
+  <g transform="scale(1.0, -1.0) translate(520 -240)">
     <use href="#side" />
   </g>
--->
+  <g transform="translate(520 360)">
+    <use href="#side" />
+  </g>
   <g transform="translate(360 280)">
     <use href="#windscreen" />
   </g>
-  <!--
-  <g transform="translate(340 420)">
+  <g transform="scale(1.0, -1.0) translate(360 -240)">
     <use href="#wside" />
   </g>
--->
+  <g transform="translate(360 360)">
+    <use href="#wside" />
+  </g>
 </svg>
