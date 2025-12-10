@@ -19,12 +19,16 @@
     }
   </style>
   <defs>
-    <g id="rearside" transform="scale(0.2) scale(0.6)">
+    <g id="rearside1" transform="scale(0.2) scale(0.6)">
       <path d="M 96 56 L 510 62 L 510 684 L 96 684 Z" />
+    </g>
+    <g id="rearside2" transform="scale(0.2) scale(0.6)">
       <path d="M 704 64 C 1028 60, 1346 120, 1672 234 L 1420 512 Q 1310 652, 1110 684 L 704 684 Z" />
     </g>
-    <g id="reartop" transform="scale(0.2) scale(0.6)">
+    <g id="reartop1" transform="scale(0.2) scale(0.6)">
         <path d="M 64 142 L 404 146 L 404 554 L 64 538 Z" />
+    </g>
+    <g id="reartop2" transform="scale(0.2) scale(0.6)">
         <path d="M 1280 142 L 1830 144 Q 1854 466, 1688 718 Q 1468 656, 1280 624 Z" />
     </g>
     <g id="wside" transform="scale(0.15) scale(0.55)">
@@ -38,10 +42,16 @@
     </g>
   </defs>
   <g>
-    <use href="#rearside" x="340" y="320" />
+    <use href="#rearside1" x="340" y="320" />
   </g>
   <g>
-    <use href="#reartop" x="340" y="180" />
+    <use href="#rearside2" x="360" y="320" />
+  </g>
+  <g>
+    <use href="#reartop1" x="340" y="180" />
+  </g>
+  <g>
+    <use href="#reartop2" x="280" y="180" />
   </g>
   <g>
     <use href="#wside" x="140" y="320" />
