@@ -19,12 +19,14 @@
     }
   </style>
   <defs>
-    <g id="rearside1" transform="scale(0.2) scale(0.6)">
+    <g id="rearside1" transform="scale(0.2) scale(0.6) scale(1.0,0.96)">
       <path d="M 96 56 L 510 62 L 510 684 L 96 684 Z" />
     </g>
     <g id="rearside2" transform="scale(0.2) scale(0.6)">
-      <path d="M 704 64 C 1028 60, 1346 120, 1672 234 L 1420 512 Q 1310 652, 1110 684 L 704 684 Z" />
+      <!-- <path d="M 704 64 C 1028 60, 1346 120, 1672 234 L 1420 512 Q 1310 652, 1110 684 L 704 684 Z" /> -->
+      <path d="M 704 64 C 1028 60, 1346 120, 1672 234 L 1420 512 Q 1310 652, 1110 684 L 704 676 Z" />
     </g>
+<!--
     <g id="reartop1" transform="scale(0.2) scale(0.6)">
         <path d="M 64 142 L 404 146 L 404 554 L 64 538 Z" />
     </g>
@@ -34,11 +36,13 @@
     <g id="wside" transform="scale(0.15) scale(0.55)">
         <path d="M 404 106 L 736 372 Q 796 418, 796 520 L 786 634 L 66 622 Z" />
     </g>
-    <g id="wtop" transform="scale(0.15) scale(0.7)">
+-->
+    <g id="wtop" transform="scale(0.15) scale(0.7) scale(1.0,1.4)">
         <path d="M 96 136 L 140 136 L 388 68 L 388 736 L 140 674 L 96 672 Z" />
+        <line x1="40" y1="404" x2="448" y2="404" />
     </g>
-    <g id="windscreen" transform="scale(0.15) scale(0.7)">
-        <path d="M 66 92 L 460 146 L 460 666 L 66 720 Q 260 411, 66 92" />
+    <g id="windscreen" transform="scale(0.15) scale(0.7) scale(1.0,1.04)">
+        <path d="M 66 92 L 460 146 L 460 666 L 66 720 Q 230 411, 66 92" />
     </g>
   </defs>
   <g>
