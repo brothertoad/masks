@@ -37,32 +37,45 @@
     </g>
     <g id="wtop" transform="scale(0.15) scale(0.7) scale(1.0,1.4)">
         <path d="M 96 136 L 140 136 L 388 68 L 388 736 L 140 674 L 96 672 Z" />
-        <line x1="40" y1="404" x2="448" y2="404" />
+        <line x1="20" y1="404" x2="468" y2="404" />
     </g>
     <g id="windscreen" transform="scale(0.15) scale(0.7) scale(0.96,1.1)">
         <path d="M 66 92 L 460 146 L 460 666 L 66 720 Q 230 411, 66 92" />
     </g>
   </defs>
-<!--
   <g>
     <use href="#rearside1" x="340" y="320" />
   </g>
   <g>
     <use href="#rearside2" x="360" y="320" />
   </g>
-  <g>
-    <use href="#reartop1" x="340" y="180" />
+  <g transform="scale(1.0,-1.0) translate(340,-130)">
+    <use href="#rearside1" />
+  </g>
+  <g transform="scale(1.0,-1.0) translate(340,-130)">
+    <use href="#rearside2" />
   </g>
   <g>
-    <use href="#reartop2" x="280" y="180" />
+    <use href="#reartop1" x="360" y="220" />
   </g>
   <g>
-    <use href="#wside" x="140" y="320" />
+    <use href="#reartop2" x="320" y="220" />
+  </g>
+  <g transform="scale(1.0,-1.0) translate(360,-220)">
+    <use href="#reartop1" />
+  </g>
+  <g transform="scale(1.0,-1.0) translate(320,-220)">
+    <use href="#reartop2" />
   </g>
   <g>
-    <use href="#wtop" x="240" y="200" />
+    <use href="#wside" x="140" y="300" />
   </g>
--->
+  <g transform="scale(1.0,-1.0) translate(140,-200)">
+    <use href="#wside" />
+  </g>
+  <g>
+    <use href="#wtop" x="220" y="190" />
+  </g>
   <g>
     <use href="#windscreen" x="120" y="200" />
   </g>
