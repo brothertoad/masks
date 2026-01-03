@@ -20,60 +20,60 @@
   </style>
   <defs>
     <g id="rear1">
-      <g transform="scale(0.3)">
+      <g transform="scale(0.3) scale(0.4)">
         <path d="M 124 134 L 674 134 L 690 688 L 124 688 Z" />
       </g>
     </g>
     <g id="rear2">
-      <g transform="scale(0.3)">
+      <g transform="scale(0.3) scale(0.4)">
         <path d="M 116 128 L 598 128 L 624 692 L 142 692 Z" />
       </g>
     </g>
     <g id="rear3">
-      <g transform="scale(0.3)">
+      <g transform="scale(0.3) scale(0.4)">
         <path d="M 80 124 L 526 84 L 1028 560  Q 1064 620, 972 638  L 122 688 Q 78 414, 80 124" />
       </g>
     </g>
     <g id="top1">
-      <g transform="scale(0.3)">
+      <g transform="scale(0.3) scale(0.5)">
         <path d="M 108 102 L 632 86 L 632 720 L 108 704 Z" />
       </g>
     </g>
     <g id="top2">
-      <g transform="scale(0.3)">
+      <g transform="scale(0.3) scale(0.5)">
         <path d="M 108 64 L 570 64  Q 520 392, 570 720 L 108 720 Z" />
       </g>
     </g>
     <g id="wtop">
-      <g transform="scale(0.3)">
+      <g transform="scale(0.3) scale(0.5)">
         <path d="M 76 360   Q 206 160, 482 66   Q 506 366, 482 666   Q 206 560, 76 360" />
       </g>
     </g>
     <g id="wside">
-      <g transform="scale(0.3)">
+      <g transform="scale(0.3) scale(0.6)">
         <path d="M 60 154 L 416 44   Q 544 214, 772 316   L 592 720   Q 268 472, 60 154" />
       </g>
     </g>
   </defs>
   <g>
-    <use href="#wtop" x="140" y="80" />
+    <use href="#wtop" x="140" y="180" />
   </g>
   <g>
     <use href="#wside" x="90" y="280" />
   </g>
   <g>
-    <use href="#rear1" x="320" y="300" />
+    <use href="#rear1" x="320" y="320" />
   </g>
   <g>
-    <use href="#rear2" x="520" y="300" />
+    <use href="#rear2" x="520" y="320" />
   </g>
   <g>
-    <use href="#rear3" x="720" y="300" />
+    <use href="#rear3" x="680" y="320" />
   </g>
   <g>
-    <use href="#top1" x="320" y="80" />
+    <use href="#top1" x="320" y="180" />
   </g>
   <g>
-    <use href="#top2" x="520" y="80" />
+    <use href="#top2" x="520" y="180" />
   </g>
 </svg>
