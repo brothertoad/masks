@@ -40,7 +40,7 @@
     <g id="rear3">
       <g transform="scale(1.03)">
         <g transform="scale(0.3) scale(0.4)">
-          <path d="M 80 124 L 518 90 L 1064 620  L 122 688 Q 78 414, 80 120" />
+          <path d="M 80 124 L 518 90 L 1074 620  L 122 688 Q 78 414, 80 120" />
         </g>
       </g>
     </g>
