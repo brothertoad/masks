@@ -84,14 +84,23 @@
       <use href="#wside" />
     </g>
   </g>
-  <g>
-    <use href="#rear1" x="320" y="400" />
+  <g transform="translate(320,400)" >
+    <use href="#rear1" />
   </g>
-  <g>
-    <use href="#rear2" x="460" y="400" />
+  <g transform="translate(320,260) scale(1.0,-1.0)" >
+    <use href="#rear1" />
   </g>
-  <g>
-    <use href="#rear3" x="600" y="400" />
+  <g transform="translate(460,400)" >
+    <use href="#rear2" />
+  </g>
+  <g transform="translate(460,260) scale(1.0,-1.0)" >
+    <use href="#rear2" />
+  </g>
+  <g transform="translate(600,400)" >
+    <use href="#rear3" />
+  </g>
+  <g transform="translate(600,260) scale(1.0,-1.0)" >
+    <use href="#rear3" />
   </g>
   <g>
     <use href="#top1" x="320" y="280" />
