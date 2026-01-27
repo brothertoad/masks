@@ -74,24 +74,29 @@
     </g>
   </defs>
   <g>
-    <use href="#wtop" x="140" y="180" />
+    <use href="#wtop" x="200" y="290" />
   </g>
   <g>
-    <use href="#wside" x="90" y="280" />
+    <use href="#wside" x="90" y="360" />
   </g>
   <g>
-    <use href="#rear1" x="320" y="320" />
+    <g transform="translate(100,300) scale(1.0,-1.0)" >
+      <use href="#wside" />
+    </g>
   </g>
   <g>
-    <use href="#rear2" x="520" y="320" />
+    <use href="#rear1" x="320" y="400" />
   </g>
   <g>
-    <use href="#rear3" x="680" y="320" />
+    <use href="#rear2" x="460" y="400" />
   </g>
   <g>
-    <use href="#top1" x="320" y="180" />
+    <use href="#rear3" x="600" y="400" />
   </g>
   <g>
-    <use href="#top2" x="520" y="180" />
+    <use href="#top1" x="320" y="280" />
+  </g>
+  <g>
+    <use href="#top2" x="460" y="280" />
   </g>
 </svg>
