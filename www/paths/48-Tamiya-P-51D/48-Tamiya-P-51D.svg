@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="180mm" height="150mm" viewBox="0 0 1800 1500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>48-Tamiya-P-51D</title>
+  <style>
+    :root {
+      fill: none;
+      stroke: black;
+      stroke-width: 1;
+    }
+    path, line {
+      vector-effect: non-scaling-stroke;
+    }
+    .dot {
+      fill: black;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+  <defs>
+    <g id="ws">
+      <path d="M 216 112 L 580 112 L 656 740  Q 398 600, 140 740 Z" />
+    </g>
+    <g id="wside">
+      <path d="M 96 60 L 706 252 Q 700 700, 208 710 Z" />
+    </g>
+  </defs>
+  <g transform="translate(140,300) scale(0.18)" >
+    <use href="#ws" />
+  </g>
+  <g transform="translate(280,300) scale(0.18)" >
+    <use href="#wside" />
+  </g>
+</svg>
