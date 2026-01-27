@@ -26,10 +26,10 @@
       <path d="M 96 60 L 706 252 Q 700 700, 208 710 Z" />
     </g>
   </defs>
-  <g transform="translate(140,300) scale(0.18)" >
+  <g transform="translate(140,300) scale(0.18) scale(0.8)" >
     <use href="#ws" />
   </g>
-  <g transform="translate(280,300) scale(0.18)" >
+  <g transform="translate(280,300) scale(0.18) scale(0.8)" >
     <use href="#wside" />
   </g>
 </svg>
