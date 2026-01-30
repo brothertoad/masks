@@ -29,7 +29,10 @@
   <g transform="translate(140,300) scale(0.18) scale(0.8)" >
     <use href="#ws" />
   </g>
-  <g transform="translate(280,300) scale(0.18) scale(0.8)" >
+  <g transform="translate(260,300) scale(0.18) scale(0.8)" >
+    <use href="#wside" />
+  </g>
+  <g transform="translate(140,300) scale(0.18) scale(0.8) scale(-1.0,1.0)" >
     <use href="#wside" />
   </g>
 </svg>
