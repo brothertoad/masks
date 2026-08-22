@@ -19,15 +19,14 @@
     }
   </style>
   <defs>
-    <g id="one">
-      <!-- paths go here -->
-      <path d="M 100 100 L 200 100 200 200 100 200 Z" />
-    </g>
     <g id="windscreen">
       <path d="M 76 688 L 182 148 C 245 44, 445 44, 508 148 L 614 688 Q 345 624, 76 688" />
     </g>
     <g id="windscreen-side">
       <path d="M 172 718 L 134 102 Q 162 102, 194 42 Q 403 174, 612 344 Z" />
+    </g>
+    <g id="canopy-rear">
+      <path d="M 132 148 L 628 148 L 671 420 L 714 148 L 1210 148 L 696 710 Q 671 730, 646 710 Z" />
     </g>
   </defs>
   <g transform="translate(260,300) scale(0.18) scale(0.8)" >
@@ -35,6 +34,9 @@
   </g>
   <g transform="translate(360,300) scale(0.18) scale(0.8)" >
     <use href="#windscreen-side" />
+  </g>
+  <g transform="translate(360,500) scale(0.18) scale(0.8)" >
+    <use href="#canopy-rear" />
   </g>
   <rect x="20" y="20" width="1760" height="1460" />
 </svg>
