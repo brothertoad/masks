@@ -1,13 +1,13 @@
 
 .image-div {
 	margin: auto;
-	background-image: url("canopy-side-800.jpg");
-	width: 544px;
+	background-image: url("canopy-side-flipped-800.jpg");
+	width: 1176px;
 	height: 800px;
 }
 
 svg {
-	width: 544px;
+	width: 1176px;
 	height: 800px;
 }
 
