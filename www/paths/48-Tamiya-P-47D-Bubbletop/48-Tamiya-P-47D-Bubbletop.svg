@@ -28,6 +28,9 @@
     <g id="canopy-rear">
       <path d="M 132 148 L 628 148 L 671 420 L 714 148 L 1210 148 L 696 710 Q 671 730, 646 710 Z" />
     </g>
+    <g id="canopy-side">
+      <path d="M 84 98 L 110 734 L 734 726 Q 936 700, 1088 636 L 1088 506 L 276 512 L 164 418 L 148 96 Z" />
+    </g>
   </defs>
   <g transform="translate(260,300) scale(0.18) scale(0.8)" >
     <use href="#windscreen" />
@@ -37,6 +40,9 @@
   </g>
   <g transform="translate(360,500) scale(0.18) scale(0.8)" >
     <use href="#canopy-rear" />
+  </g>
+  <g transform="translate(200,500) scale(0.18) scale(0.8)" >
+    <use href="#canopy-side" />
   </g>
   <rect x="20" y="20" width="1760" height="1460" />
 </svg>
