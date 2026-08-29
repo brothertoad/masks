@@ -1,0 +1,49 @@
+<html>
+<head>
+	<link rel="stylesheet" href="/site.css">
+	<link rel="stylesheet" href="windscreen-800.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<title>windscreen-800</title>
+</head>
+<body>
+	<div class="main-content">
+		<div class="image-div cell" onclick="addCoords(event);">
+			<svg>
+				<path d="M 56 726 L 96 248 L 316 248 L 356 726 Q 206 688, 56 726" />
+				<path d="M 88 194 L 49 79 Q 44 66, 61 66 L 206 66  L 351 66 Q 368 66, 363 79 L 324 194   Z" />
+				<!-- <path d="M 88 194 L 49 79 Q 44 66, 61 66 L 206 66   L 368 66 L 324 194 Z" /> -->
+				<!-- <path d="M 88 194 L 44 66 L 368 66 L 324 194 Z" /> -->
+			</svg>
+		</div>
+		<div class="column cell">
+			<div class="row">
+				<div class="row-item">
+					<input id="coords" value="" size="32" readonly />
+				</div>
+				<div class="row-item">
+					<button type="button" onclick="clearCoords();">Clear</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="row-item">
+					<a href="./">Project page</a>
+				</div>
+				<div class="row-item">
+					<a href="/">Main page</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		function clearCoords() {
+			document.getElementById("coords").value = "";
+		}
+		function addCoords(event) {
+			var coords = document.getElementById("coords");
+			coords.value = coords.value + " " + event.offsetX + "," + event.offsetY;
+		}
+	</script>
+</body>
+</html>
