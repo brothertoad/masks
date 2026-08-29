@@ -20,7 +20,7 @@
   </style>
   <defs>
     <g id="windscreen">
-      <path d="M 178 112 Q 338 36, 498 112 L 590 752 Q 338 670, 86 752 Z" />
+      <path d="M 178 112 Q 338 36, 498 112 L 540 722 Q 338 640, 136 722 Z" />
     </g>
     <g id="windscreen-side">
       <path d="M 66 154 L 118 102 L 516 362 L 160 730 Z" />
