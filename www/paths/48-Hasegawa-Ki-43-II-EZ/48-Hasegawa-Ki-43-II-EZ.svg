@@ -19,9 +19,8 @@
     }
   </style>
   <defs>
-    <g id="one">
-      <!-- paths go here -->
-      <path d="M 100 100 L 200 100 200 200 100 200 Z" />
+    <g id="front">
+      <path d="M 40 44 L 690 40 L 728 740 L 84 750 Z" />
     </g>
     <g id="windscreen">
       <path d="M 56 726 L 98 224 L 98 214 L 49 79 Q 44 66, 61 66    Q 206 52, 351 66    Q 368 66, 363 79 L 314 214 L 314 224 L 356 726 Q 206 688, 56 726" />
@@ -35,5 +34,8 @@
   </g>
   <g transform="translate(500,500) scale(0.18) scale(0.8)" >
     <use href="#windscreen-side" />
+  </g>
+  <g transform="translate(640,500) scale(0.18) scale(0.8)" >
+    <use href="#front" />
   </g>
 </svg>
