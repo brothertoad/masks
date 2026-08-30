@@ -22,6 +22,11 @@
     <g id="front">
       <path d="M 40 44 L 690 40 L 728 740 L 84 750 Z" />
     </g>
+    <g id="rear">
+      <path d="M 126 322 L 86 212 Q 50 110, 154 90 Q 254 70, 354 70 Z" />
+      <path d="M 516 636 L 313 747 Q 290 760, 282 739 L 210 554 Z" />
+      <path d="M 876 60 L 1212 78 Q 1250 80, 1217 107 L 928 348 Z" />
+    </g>
     <g id="windscreen">
       <path d="M 56 726 L 98 224 L 98 214 L 49 79 Q 44 66, 61 66    Q 206 52, 351 66    Q 368 66, 363 79 L 314 214 L 314 224 L 356 726 Q 206 688, 56 726" />
     </g>
@@ -29,13 +34,16 @@
       <path d="M 76 746 Q 56 452, 116 208  Q 150 118, 244 58 L 638 418 L 632 452 Q 330 586, 76 746" />
     </g>
   </defs>
-  <g transform="translate(400,500) scale(0.18) scale(0.8)" >
+  <g transform="translate(200,500) scale(0.18) scale(0.8)" >
     <use href="#windscreen" />
   </g>
-  <g transform="translate(500,500) scale(0.18) scale(0.8)" >
+  <g transform="translate(300,500) scale(0.18) scale(0.8)" >
     <use href="#windscreen-side" />
   </g>
-  <g transform="translate(640,500) scale(0.18) scale(0.8)" >
+  <g transform="translate(440,500) scale(0.18) scale(0.8)" >
     <use href="#front" />
+  </g>
+  <g transform="translate(560,500) scale(0.18) scale(0.8)" >
+    <use href="#rear" />
   </g>
 </svg>
