@@ -23,6 +23,9 @@
       <path d="M 40 44 L 690 40 L 728 740 L 84 750 Z" />
     </g>
     <g id="rear">
+      <path d="M 208 80   Q 640 42, 1201 74 Q 1212 120, 1178 154   Q 766 492, 326 744   Q 294 744, 270 726 L 74 184  Q 64 104, 208 80" />
+    </g>
+    <g id="rear-pieces">
       <path d="M 126 322 L 86 212 Q 50 110, 154 90 Q 254 70, 354 70 Z" />
       <path d="M 516 636 L 313 747 Q 290 760, 282 739 L 210 554 Z" />
       <path d="M 876 60 L 1212 78 Q 1250 80, 1217 107 L 928 348 Z" />
@@ -43,7 +46,7 @@
   <g transform="translate(440,500) scale(0.18) scale(0.8)" >
     <use href="#front" />
   </g>
-  <g transform="translate(560,500) scale(0.18) scale(0.8)" >
+  <g transform="translate(580,500) scale(0.18) scale(0.8)" >
     <use href="#rear" />
   </g>
 </svg>
