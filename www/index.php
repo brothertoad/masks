@@ -13,7 +13,7 @@
 				<?php
 					$paths = scandir("paths");
 					foreach ($paths as $path) {
-						if ($path != "." && $path != ".." && $path != "init.sh") {
+						if ($path != "." && $path != ".." && $path != "init.sh" && substr($path, 0, 2) != "z-") {
 							echo("<li><a href=\"paths/$path/\">$path</a></li>");
 						}
 					}
