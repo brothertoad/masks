@@ -17,7 +17,7 @@
 		<div class="column cell">
 			<div class="row">
 				<div class="row-item">
-					<input id="coords" value="" size="32" readonly />
+					<input id="coords" class="preserve" value="" size="32" readonly />
 				</div>
 				<div class="row-item">
 					<button type="button" onclick="clearCoords();">Clear</button>
@@ -39,7 +39,7 @@
 		}
 		function addCoords(event) {
 			var coords = document.getElementById("coords");
-			coords.value = coords.value + " " + event.offsetX + "," + event.offsetY;
+			coords.value = coords.value + "    " + event.offsetX + " " + event.offsetY;
 		}
 	</script>
 </body>
