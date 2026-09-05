@@ -27,8 +27,8 @@
       <!-- paths go here -->
     </g>
   </defs>
-  <g>
-    <use href="#one" x="140" y="300" />
+  <g transform="translate(0,0) scale(1.0)" >
+    <use href="#one" />
   </g>
   <rect x="20" y="20" width="1760" height="1460" />
 </svg>
